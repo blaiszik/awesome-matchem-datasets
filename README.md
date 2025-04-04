@@ -66,7 +66,7 @@ Want to add a new dataset or improve metadata?
 | JARVIS-DFT (NIST)              | 3D/2D materials          | 40k+ entries             | Computational | JSON/API    | Open       | Open       | [jarvis.nist.gov](https://jarvis.nist.gov) |
 | Carolina Materials DB          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       | [carolinamatdb.org](http://www.carolinamatdb.org) |
 | NOMAD          | Various DFT/MD   | >19M calculations          | Computational | JSON        | CC BY 4.0   | Open       | [NOMAD Repository](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries) |
-| MatPES | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open | [MatPES](https://matpes.ai) 
+| MatPES | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open | [MatPES](https://matpes.ai)
 | Vector-QM24 | Small organic and inorganic molecules | 836k conformational isomers | Computational | JSON | Placeholder | Open | [V-QM24](https://doi.org/10.5281/zenodo.11164951) |
 | AIMNet2 Dataset | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON | Open | Open | [AIMNet](https://doi.org/10.1184/R1/27629937.v1) |
 | RDB7 | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/13328872) |
@@ -85,6 +85,7 @@ Want to add a new dataset or improve metadata?
 | Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](https://www.crystallography.net) |
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
+| [opXRD](https://arxiv.org/abs/2503.05577) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open | [zenodo.org](https://doi.org/10.5281/zenodo.14254270) |
 
 ---
 
