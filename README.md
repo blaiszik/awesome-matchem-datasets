@@ -82,8 +82,8 @@ Want to add a new dataset or improve metadata?
 ### Experimental Datasets
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](https://www.crystallography.net) |
+|---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
+| Crystallography Open Database (COD) | Crystal structures  | ~525k entries            | Experimental | CIF/SMILES  | CC0 1.0     | Open       | [crystallography.net/cod](https://www.crystallography.net/cod) |
 | NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
 | CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
 | [opXRD](https://arxiv.org/abs/2503.05577) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open | [zenodo.org](https://doi.org/10.5281/zenodo.14254270) |
