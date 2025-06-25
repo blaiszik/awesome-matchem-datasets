@@ -224,7 +224,7 @@ If this repository was helpful in your work, feel free to cite or star the repo.
 ## Changelog
 
 ### 2024 and Earlier
-For changes made before today, please see the [repository commit history](https://github.com/your-repo/commits).
+For changes made before today, please see the [repository commit history](https://github.com/blaiszik/awesome-matchem-datasets/commits/main/).
 
 ### June 2025
 
