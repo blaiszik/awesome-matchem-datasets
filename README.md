@@ -18,6 +18,7 @@ This project aims to:
   - [Experimental](#experimental-datasets)
   - [LLM Training](#llm-training-datasets)
   - [Literature-mined & Text](#literature-mined--text-datasets)
+  - [Physics & Engineering (PDE, CFD)](#physics--engineering-pde-cfd-datasets)
   - [Proprietary](#proprietary-datasets)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -75,6 +76,7 @@ OR
 | [DFT Solvation Energy Dataset](https://www.doi.org/10.18126/jos5-wj65) | Small molecules | 651,290 solvation energies in 5 solvents | Computational | CSV/JSON | Open | Open |
 | [MD Simulated Monomer Properties](https://doi.org/10.18126/8p6m-e135) | Small molecules | 410 molecules with thermodynamic properties | Computational | CSV/JSON | Open | Open |
 | [Multimodal Spectroscopic Dataset](https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset) | Molecular spectroscopy | 790k molecules with simulated spectra | Computational | HDF5/JSON | Open | Open |
+| [PubChemQCR](https://huggingface.co/datasets/divelab/PubChemQCR) | Small molecules (relaxation) | 3.5M trajectories / 300M conformations | Computational | HuggingFace Dataset | Apache-2.0 | Open |
 
 
 
@@ -150,6 +152,7 @@ OR
 | [TextEdge](https://drive.google.com/drive/folders/1YCDBzwjwNRIc1FRkB662G3Y5AOWaokUG?ths=true) | Crystal properties | Crystal text descriptions with properties | LLM Training | JSON | Open | Open |
 | [LAMBench-TrainingSet-v1](https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308) | Materials structures | 19.8M structures for Large Atom Models | LLM Training | Various | Open | Open |
 | [LLM4Mat](https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht?dmr%20=%201%26ec%20=%20wgc-drive-hero-goto) | Materials property prediction | 1.9M crystal structures, 45 properties, 3 modalities | LLM Training | Various | Open | Open |
+| [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub | Apache-2.0 | Open |
 
 ---
 
@@ -162,6 +165,15 @@ OR
 | [PatCID (IBM)](https://github.com/DS4SD/PatCID)                   | Chemical image data     | 81M images / 13M mols    | Literature    | PNG/SMILES  | Open        | Open       |
 | [MatScholar](https://matscholar.com)                     | NLP corpus (materials)  | 5M+ abstracts            | Literature    | JSON/Graph  | Open        | Open       |
 | [MatSciKB](TBD)                            | Materials science KB    | 38.5k entries (20k papers, 3.6k Wikipedia, 1.9k textbooks, 10.5k datasets) | Literature    | Structured text  | Open        | Open       |
+
+---
+
+### Physics & Engineering (PDE, CFD) Datasets
+
+| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
+|---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
+| [PDEBench](https://github.com/pdebench/PDEBench) | PDE solving / Scientific ML | Multiple datasets | Benchmark / Simulation | HDF5/PyTorch | Apache-2.0 | Open |
+| [BLASTNet](https://blastnet.github.io) | Fluid mechanics / Reacting flows | 17 TB | Simulation / CFD | HDF5/NPY | Open | Open |
 
 ---
 
@@ -226,6 +238,20 @@ If this repository was helpful in your work, feel free to cite or star the repo.
 
 ### 2024 and Earlier
 For changes made before today, please see the [repository commit history](https://github.com/blaiszik/awesome-matchem-datasets/commits/main/).
+
+### July 2025
+
+Expanded the collection into new scientific domains with 4 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
+
+#### 💨 Physics & Engineering Datasets (2 datasets)
+- **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
+- **BLASTNet**: A 17 TB collection of high-fidelity fluid mechanics simulation datasets for ML applications in automotive, propulsion, and energy sectors. It includes code and pre-trained models for tasks like turbulence modeling and spatio-temporal prediction.
+
+#### 🧮 Computational Datasets (1 dataset)
+- **PubChemQCR**: A massive dataset of molecular relaxation trajectories for ~3.5 million small molecules, containing over 300 million conformations with energy and force labels. It is the largest public dataset of its kind, designed to accelerate the development of machine learning interatomic potentials (MLIPs).
+
+#### 📚 LLM Training Datasets (1 dataset)
+- **LLM-EO (Evolutionary Optimization)**: A framework that integrates LLMs into evolutionary algorithms for optimizing transition metal complexes. This approach leverages the chemical knowledge of LLMs to surpass traditional genetic algorithms, enabling flexible, multi-objective optimization without complex mathematical formulations.
 
 ### June 2025
 
