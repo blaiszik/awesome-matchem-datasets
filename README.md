@@ -173,6 +173,15 @@ OR
 |---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
 | [PDEBench](https://github.com/pdebench/PDEBench) | PDE solving / Scientific ML | Multiple datasets | Benchmark / Simulation | HDF5/PyTorch | Apache-2.0 | Open |
 | [BLASTNet](https://blastnet.github.io) | Fluid mechanics / Reacting flows | 17 TB | Simulation / CFD | HDF5/NPY | Open | Open |
+| [Johns Hopkins Turbulence DB (JHTDB)](https://turbulence.pha.jhu.edu) | DNS/LES turbulence (9 canonical flows) | ≈ 350 TB | Simulation | Web API / HDF5 cutouts | Public Domain | Open |
+| [Airfoil CFD 2k](https://data.openei.org/submissions/5970) | 1,830 airfoils × 25 AoA × 3 Re | ~6 GB (250 k cases) | Simulation | HDF5 | CC BY 4.0 | Open |
+| [PDEArena (collection)](https://huggingface.co/pdearena) | 2-D Navier–Stokes, Shallow-Water, 3-D Maxwell | ≈ 100 GB (4 datasets) | Simulation | Torch / HDF5 | MIT | Open |
+| [WeatherBench 2](https://github.com/pangeo-data/WeatherBench) | Global weather reanalysis (ERA5, 1979-2023) | ≈ 5 TB | Reanalysis | NetCDF/Zarr | MIT | Open |
+| [UT Austin Channel-DNS Suite](https://turbulence.oden.utexas.edu) | Incompressible channel flow Re<sub>τ</sub> 180 – 5200 | ≈ 10 TB | Simulation | Binary / ASCII | Research-Free | Open |
+| [Compressible TPC DNS DB](https://data.mendeley.com/datasets/wt8t5kxzbs) | Compressible channel flow (25 M, Re<sub>τ*</sub>) | ~2 GB | Simulation | TXT tables | CC BY 4.0 | Open |
+| [Curated RANS ↔ DNS Dataset](https://doi.org/10.34740/kaggle/dsv/2637500) | 29 geometries, 4 RANS models w/ DNS/LES labels | 1.1 GB | Simulation | HDF5/CSV | CC BY 4.0 | Open |
+| [NASA Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov) | Aircraft CRM geom. + wind-tunnel & CFD results | Multi-GB | Mixed (Exp + Sim) | CAD / CSV / Tecplot | NASA PDL | Open |
+| [Darcy-Flow (FNO)](https://docs.nvidia.com/deeplearning/modulus/modulus-v2209/user_guide/neural_operators/darcy_fno.html) | 2-D porous-media pressure fields (∇·k∇u = f) | ≈ 1 GB (10 k samples) | Simulation | HDF5 | Apache-2.0 | Open |
 
 ---
 
@@ -235,16 +244,26 @@ If this repository was helpful in your work, feel free to cite or star the repo.
 
 ## Changelog
 
-### 2024 and Earlier
-For changes made before today, please see the [repository commit history](https://github.com/your-repo/commits).
+### May 2024 and Earlier
+For changes made earlier than the changelog entries, please see the [repository commit history](https://github.com/your-repo/commits).
 
 ### July 2025
 
-Expanded the collection into new scientific domains with 4 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
+Expanded the collection into new scientific domains with 13 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
 
-#### 💨 Physics & Engineering Datasets (2 datasets)
+#### 💨 Physics & Engineering Datasets (11 datasets)
 - **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
 - **BLASTNet**: A 17 TB collection of high-fidelity fluid mechanics simulation datasets for ML applications in automotive, propulsion, and energy sectors. It includes code and pre-trained models for tasks like turbulence modeling and spatio-temporal prediction.
+- **JHTDB**: multi-terabyte DNS/LES portal with isotropic, channel, MHD, boundary-layer and atmospheric datasets.
+- **Airfoil CFD 2k**: DOE/NREL benchmark: 1,830 shapes × 250 k RANS simulations; HDF5 + AWS mirror.
+- **PDEArena**: Hugging-Face org offering Navier–Stokes, Shallow-Water & Maxwell tensors; MIT license.
+- **WeatherBench 2**: ERA5-derived Zarr cubes for data-driven medium-range forecasting; MIT.
+- **UT Austin DNS Suite**: public HTTP server with Reτ 180–5200 channel data & statistics.
+- **Compressible TPC DNS DB**: 25 Reynolds–Mach cases, plain-text statistics (Mendeley Data).
+- **Curated RANS ↔ DNS**: Scientific Data descriptor + Kaggle mirror for ML turbulence closures.
+- **NASA CRM**: open CAD, grids, wind-tunnel Cp & force/moment datasets for the community benchmark.
+- **Darcy Flow (FNO)**: canonical permeability→pressure dataset used in FNO/PINO papers.
+These additions give researchers ready-to-train data for high-Re wall turbulence, compressible flows, porous-media transport, global atmosphere, and aeronautical configurations, rounding out the repository’s materials/chemistry focus with state-of-the-art CFD & PDE benchmarks.
 
 #### 🧮 Computational Datasets (1 dataset)
 - **PubChemQCR**: A massive dataset of molecular relaxation trajectories for ~3.5 million small molecules, containing over 300 million conformations with energy and force labels. It is the largest public dataset of its kind, designed to accelerate the development of machine learning interatomic potentials (MLIPs).
