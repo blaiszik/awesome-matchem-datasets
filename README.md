@@ -113,7 +113,9 @@ OR
 | [OCx24](https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data) | Electrocatalyst inks | 572 samples (+DFT) | Experimental | CSV | CC BY 4.0 | Open |
 | [Polymer Genome](https://khazana.gatech.edu/dataset/) | Polymers | 20 k polymers | Experimental + Comp | CSV/JSON | CC BY 4.0 | Open |
 | [CoRE MOF 2024](https://www.ccdc.cam.ac.uk/support-and-resources/downloads/) | Metal-organic frameworks | 40k+ experimental MOFs | Experimental | CIF | Open | Open |
-| [SAIR](https://www.sandboxaq.com/sair) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV | CC BY-NC-SA 4.0 | Open |
+| [SAIR](https://pub.sandboxaq.com/data/ic50-dataset) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV | CC BY-NC-SA 4.0 | Open |
+| [Anion Solvation DB](https://doi.org/10.5281/zenodo.13987781) | Anion solvation | ~26k properties | Mixed | CSV | CC BY 4.0 | Open |
+| [BigSolDB](https://doi.org/10.5281/zenodo.6809668) | Organic molecule solubility | ~54k exp. values | Experimental | CSV | CC BY 4.0 | Open |
 
 
 
@@ -153,6 +155,8 @@ OR
 | [LAMBench-TrainingSet-v1](https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308) | Materials structures | 19.8M structures for Large Atom Models | LLM Training | Various | Open | Open |
 | [LLM4Mat](https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht?dmr%20=%201%26ec%20=%20wgc-drive-hero-goto) | Materials property prediction | 1.9M crystal structures, 45 properties, 3 modalities | LLM Training | Various | Open | Open |
 | [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub | Apache-2.0 | Open |
+| [Flavor Analysis and Recognition Transformer](https://github.com/fart-lab/fart/tree/main/dataset) | Molecular taste prediction | Multi-class taste classification dataset | LLM Training | SMILES/JSON | Open | Open |
+| [SCQA (Solar Cell QA)](TBD) | Solar cells | 47K QA pairs | LLM Training | JSON | Open | Open |
 
 ---
 
@@ -247,7 +251,7 @@ If this repository was helpful in your work, feel free to cite or star the repo.
 
 ### July 2025
 
-Expanded the collection into new scientific domains with 13 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
+Expanded the collection into new scientific domains with 17 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
 
 #### 💨 Physics & Engineering Datasets (11 datasets)
 - **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
@@ -266,8 +270,15 @@ These additions give researchers ready-to-train data for high-Re wall turbulence
 #### 🧮 Computational Datasets (1 dataset)
 - **PubChemQCR**: A massive dataset of molecular relaxation trajectories for ~3.5 million small molecules, containing over 300 million conformations with energy and force labels. It is the largest public dataset of its kind, designed to accelerate the development of machine learning interatomic potentials (MLIPs).
 
-#### 📚 LLM Training Datasets (1 dataset)
+#### 📚 LLM Training Datasets (3 datasets)
 - **LLM-EO (Evolutionary Optimization)**: A framework that integrates LLMs into evolutionary algorithms for optimizing transition metal complexes. This approach leverages the chemical knowledge of LLMs to surpass traditional genetic algorithms, enabling flexible, multi-objective optimization without complex mathematical formulations.
+- **Flavor Analysis and Recognition Transformer**: A state-of-the-art machine learning model dataset for predicting molecular taste from chemical structures. Built on ChemBERTa transformer architecture, it classifies molecules across four taste categories (sweet, bitter, sour, umami) with >91% accuracy, enabling interpretability through gradient-based visualizations and applications in flavor compound discovery and rational food design.
+- **SCQA (Solar Cell QA)**: Domain-specific question-answering dataset containing 47,268 QA pairs about solar cell properties, auto-generated using ChemDataExtractor. Fine-tuning language models on this dataset achieves F1-scores exceeding general-English QA datasets by 10-20%, demonstrating the value of domain-specific training data for specialized scientific applications.
+
+#### 🧪 Experimental Datasets (2 datasets)
+- **Anion Solvation DB**: Comprehensive compilation of 26,000+ solvation properties including 8,241 experimental pKa values across 8 solvents, 5,536 computed gas-phase acidities, and over 12,000 solvation energies for anions and neutral compounds computed using COSMO-RS. Bridges experimental and computational approaches for understanding anion behavior in different solvation environments.
+- **BigSolDB**: Extensive experimental solubility database containing 54,273 measured solubility values across temperature range 243.15-403.15 K in various organic solvents and water. Features diverse chemical space coverage with interactive t-SNE exploration tool and comprehensive statistical analysis for QSPR model development.
+
 
 ### June 2025
 
