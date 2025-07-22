@@ -76,6 +76,7 @@ OR
 | [MD Simulated Monomer Properties](https://doi.org/10.18126/8p6m-e135) | Small molecules | 410 molecules with thermodynamic properties | Computational | CSV/JSON | Open | Open |
 | [Multimodal Spectroscopic Dataset](https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset) | Molecular spectroscopy | 790k molecules with simulated spectra | Computational | HDF5/JSON | Open | Open |
 | [PubChemQCR](https://huggingface.co/datasets/divelab/PubChemQCR) | Small molecules (relaxation) | 3.5M trajectories / 300M conformations | Computational | HuggingFace Dataset | Apache-2.0 | Open |
+| [MP-ALOE](https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190) | Universal MLIPs (89 elements) | ~1M r2SCAN DFT calculations | Computational | JSONL/MACE | Open | Open |
 
 
 
@@ -253,7 +254,7 @@ For changes made earlier than the changelog entries, please see the [repository 
 
 ### July 2025
 
-Expanded the collection into new scientific domains with 17 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
+Expanded the collection into new scientific domains with 18 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
 
 #### 💨 Physics & Engineering Datasets (11 datasets)
 - **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
@@ -269,8 +270,9 @@ Expanded the collection into new scientific domains with 17 new datasets, introd
 - **Darcy Flow (FNO)**: canonical permeability→pressure dataset used in FNO/PINO papers.
 These additions give researchers ready-to-train data for high-Re wall turbulence, compressible flows, porous-media transport, global atmosphere, and aeronautical configurations, rounding out the repository’s materials/chemistry focus with state-of-the-art CFD & PDE benchmarks.
 
-#### 🧮 Computational Datasets (1 dataset)
+#### 🧮 Computational Datasets (2 datasets)
 - **PubChemQCR**: A massive dataset of molecular relaxation trajectories for ~3.5 million small molecules, containing over 300 million conformations with energy and force labels. It is the largest public dataset of its kind, designed to accelerate the development of machine learning interatomic potentials (MLIPs).
+- **MP-ALOE**: Nearly 1 million DFT calculations using the accurate r2SCAN meta-generalized gradient approximation, covering 89 elements. Created using active learning and primarily consisting of off-equilibrium structures, MP-ALOE is designed for training universal machine learning interatomic potentials (UMLIPs) with strong performance on thermochemical properties, force prediction, and physical soundness under extreme conditions.
 
 #### 📚 LLM Training Datasets (3 datasets)
 - **LLM-EO (Evolutionary Optimization)**: A framework that integrates LLMs into evolutionary algorithms for optimizing transition metal complexes. This approach leverages the chemical knowledge of LLMs to surpass traditional genetic algorithms, enabling flexible, multi-objective optimization without complex mathematical formulations.
