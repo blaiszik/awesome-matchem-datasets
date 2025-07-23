@@ -77,6 +77,13 @@ OR
 | [Multimodal Spectroscopic Dataset](https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset) | Molecular spectroscopy | 790k molecules with simulated spectra | Computational | HDF5/JSON | Open | Open |
 | [PubChemQCR](https://huggingface.co/datasets/divelab/PubChemQCR) | Small molecules (relaxation) | 3.5M trajectories / 300M conformations | Computational | HuggingFace Dataset | Apache-2.0 | Open |
 | [MP-ALOE](https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190) | Universal MLIPs (89 elements) | ~1M r2SCAN DFT calculations | Computational | JSONL/MACE | Open | Open |
+| [Alexandria DB](https://alexandria.icams.rub.de) | Inorganic (1D–3D) | >5 M DFT calcs (PBE) | Computational | JSON/OPTIMADE/LMDB | Open | Open |
+| [Quantum‑Chemical Bonding DB (LOBSTER)](https://zenodo.org/records/8091844) | Solid‑state bonding analysis | 1,520 compounds | Computational | JSON | CC BY 4.0 | Open |
+| [MultixcQM9 (OpenQDC)](https://www.openqdc.io/datasets) | Small molecules (QM9, multi‑XC) | 133k molecules | Computational | Torch/NumPy | Open | Open |
+| [SPICE (OpenQDC)](https://www.openqdc.io/datasets) | Drug‑like molecules | 1 M conformers (energies & forces) | Computational | Torch/ASE | Open | Open |
+| [Matbench v0.1](https://matbench.materialsproject.org/) | Benchmarks (13 tasks) | 10 datasets | Benchmark/Comp | CSV/HDF5 | BSD‑3 | Open |
+| [Matbench Discovery](https://matbench-discovery.materialsproject.org/) | Stability, κ, structures | Multiple files | Benchmark/Comp | CSV/ZIP | BSD‑3 | Open |
+| [Materials Cloud Archives](https://archive.materialscloud.org) | Various DFT/MD workflows | 1,000+ datasets | Computational | HDF5/JSON/CIF | Various CC | Open |
 
 
 
@@ -116,6 +123,8 @@ OR
 | [SAIR](https://pub.sandboxaq.com/data/ic50-dataset) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV | CC BY-NC-SA 4.0 | Open |
 | [Anion Solvation DB](https://doi.org/10.5281/zenodo.13987781) | Anion solvation | ~26k properties | Mixed | CSV | CC BY 4.0 | Open |
 | [BigSolDB](https://doi.org/10.5281/zenodo.6809668) | Organic molecule solubility | ~54k exp. values | Experimental | CSV | CC BY 4.0 | Open |
+| [StarryData2](https://github.com/starrydata/starrydata_datasets) | Experimental properties | Figshare dump (2023/2024) | Experimental | CSV/JSON | CC BY 4.0 | Open |
+| [CRIPT Polymer Data](https://www.criptapp.org) | Polymers (synthesis, properties) | Growing community DB | Mixed | JSON/API | CC BY 4.0 | Open |
 
 
 
@@ -169,6 +178,8 @@ OR
 | [PatCID (IBM)](https://github.com/DS4SD/PatCID)                   | Chemical image data     | 81M images / 13M mols    | Literature    | PNG/SMILES  | Open        | Open       |
 | [MatScholar](https://matscholar.com)                     | NLP corpus (materials)  | 5M+ abstracts            | Literature    | JSON/Graph  | Open        | Open       |
 | [MatSciKB](TBD)                            | Materials science KB    | 38.5k entries (20k papers, 3.6k Wikipedia, 1.9k textbooks, 10.5k datasets) | Literature    | Structured text  | Open        | Open       |
+| [Matbench (metadata/text tasks)](https://matbench.materialsproject.org/) | Text/meta ML tasks | 13 tasks | Literature/Benchmark | CSV | BSD‑3 | Open |
+| [OpenQDC Hub](https://github.com/valence-labs/openQDC) | QM molecules & reactions | 1.5 B geometries | Literature/Computational | Python API/NPZ | MIT | Open |
 
 ---
 
@@ -254,7 +265,7 @@ For changes made earlier than the changelog entries, please see the [repository 
 
 ### July 2025
 
-Expanded the collection into new scientific domains with 18 new datasets, introducing benchmarks for physics-based machine learning and adding a massive new resource for molecular dynamics.
+Expanded the collection into new scientific domains with 25 new datasets, introducing benchmarks for physics-based machine learning, adding comprehensive quantum mechanics datasets, and expanding materials science resources.
 
 #### 💨 Physics & Engineering Datasets (11 datasets)
 - **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
@@ -270,18 +281,25 @@ Expanded the collection into new scientific domains with 18 new datasets, introd
 - **Darcy Flow (FNO)**: canonical permeability→pressure dataset used in FNO/PINO papers.
 These additions give researchers ready-to-train data for high-Re wall turbulence, compressible flows, porous-media transport, global atmosphere, and aeronautical configurations, rounding out the repository’s materials/chemistry focus with state-of-the-art CFD & PDE benchmarks.
 
-#### 🧮 Computational Datasets (2 datasets)
+#### 🧮 Computational Datasets (7 datasets)
 - **PubChemQCR**: A massive dataset of molecular relaxation trajectories for ~3.5 million small molecules, containing over 300 million conformations with energy and force labels. It is the largest public dataset of its kind, designed to accelerate the development of machine learning interatomic potentials (MLIPs).
 - **MP-ALOE**: Nearly 1 million DFT calculations using the accurate r2SCAN meta-generalized gradient approximation, covering 89 elements. Created using active learning and primarily consisting of off-equilibrium structures, MP-ALOE is designed for training universal machine learning interatomic potentials (UMLIPs) with strong performance on thermochemical properties, force prediction, and physical soundness under extreme conditions.
+- **Alexandria DB**: Massive computational materials database containing over 5 million DFT calculations using PBE functional for 1D-3D inorganic materials. Provides OPTIMADE-compliant API access and LMDB format for high-performance materials screening and property prediction workflows.
+- **Quantum-Chemical Bonding DB (LOBSTER)**: Specialized dataset providing detailed bonding analysis for 1,520 solid-state compounds using LOBSTER methodology. Enables understanding of chemical bonding in crystalline materials through projected crystal orbital Hamilton populations and related descriptors.
+- **MultixcQM9 & SPICE (OpenQDC)**: Enhanced quantum chemistry datasets within the OpenQDC framework. MultixcQM9 provides multi-exchange correlation functional data for 133k small molecules, while SPICE offers 1 million conformers with energies and forces for drug-like molecules, both optimized for machine learning applications.
+- **Matbench v0.1 & Discovery**: Comprehensive benchmarking suites for materials property prediction featuring 13 standardized tasks across 10 datasets. Matbench Discovery specifically targets stability prediction, thermal conductivity, and structure generation with rigorous evaluation protocols.
+- **Materials Cloud Archives**: Centralized repository of over 1,000 computational datasets from various DFT and molecular dynamics workflows. Provides standardized access to diverse materials science calculations with comprehensive metadata and version control.
 
 #### 📚 LLM Training Datasets (3 datasets)
 - **LLM-EO (Evolutionary Optimization)**: A framework that integrates LLMs into evolutionary algorithms for optimizing transition metal complexes. This approach leverages the chemical knowledge of LLMs to surpass traditional genetic algorithms, enabling flexible, multi-objective optimization without complex mathematical formulations.
 - **Flavor Analysis and Recognition Transformer**: A state-of-the-art machine learning model dataset for predicting molecular taste from chemical structures. Built on ChemBERTa transformer architecture, it classifies molecules across four taste categories (sweet, bitter, sour, umami) with >91% accuracy, enabling interpretability through gradient-based visualizations and applications in flavor compound discovery and rational food design.
 - **SCQA (Solar Cell QA)**: Domain-specific question-answering dataset containing 47,268 QA pairs about solar cell properties, auto-generated using ChemDataExtractor. Fine-tuning language models on this dataset achieves F1-scores exceeding general-English QA datasets by 10-20%, demonstrating the value of domain-specific training data for specialized scientific applications.
 
-#### 🧪 Experimental Datasets (2 datasets)
+#### 🧪 Experimental Datasets (4 datasets)
 - **Anion Solvation DB**: Comprehensive compilation of 26,000+ solvation properties including 8,241 experimental pKa values across 8 solvents, 5,536 computed gas-phase acidities, and over 12,000 solvation energies for anions and neutral compounds computed using COSMO-RS. Bridges experimental and computational approaches for understanding anion behavior in different solvation environments.
 - **BigSolDB**: Extensive experimental solubility database containing 54,273 measured solubility values across temperature range 243.15-403.15 K in various organic solvents and water. Features diverse chemical space coverage with interactive t-SNE exploration tool and comprehensive statistical analysis for QSPR model development.
+- **StarryData2**: Large-scale experimental properties dataset from Figshare spanning 2023-2024, providing comprehensive experimental measurements across diverse materials and chemical systems for machine learning model validation and training.
+- **CRIPT Polymer Data**: Community-driven polymer database featuring synthesis procedures, characterization data, and properties. Enables standardized data sharing and collaborative research in polymer science through structured JSON API access.
 
 
 ### June 2025
@@ -323,5 +341,9 @@ Added 28 new high-quality datasets spanning polymer science, drug discovery, car
 - **MatSciKB**: Comprehensive materials science knowledge base with 38,469 curated entries across 16 categories. Integrates ArXiv papers (20,384), Wikipedia articles (3,620), textbooks (1,930), datasets (10,473), formulas (57), and GPT-generated examples (2,005) with efficient CRUD operations for research applications.
 - **ChemRxivQuest**: 970 curated question–answer pairs spanning 17 chemistry subfields, designed for retrieval-augmented generation and factuality assessments.
 - **USPTO-Lowe Reactions (1976–2016)**: 1.8 million atom-mapped reactions extracted from US patents, serving as a benchmark for reaction prediction and retrosynthesis models.
+
+#### 📚 Enhanced Literature & Benchmark Resources (2 datasets)
+- **Matbench (metadata/text tasks)**: Extended benchmarking suite providing 13 standardized tasks for text-based and metadata-driven materials property prediction. Enables systematic evaluation of natural language processing approaches in materials science applications.
+- **OpenQDC Hub**: Comprehensive quantum chemistry database aggregating 1.5 billion molecular geometries and quantum mechanical properties. Provides unified Python API access to diverse quantum chemistry datasets with standardized formats for large-scale machine learning applications.
 
 ⸻
