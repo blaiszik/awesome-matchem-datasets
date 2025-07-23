@@ -168,6 +168,9 @@ OR
 | [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub | Apache-2.0 | Open |
 | [Flavor Analysis and Recognition Transformer](https://github.com/fart-lab/fart/tree/main/dataset) | Molecular taste prediction | Multi-class taste classification dataset | LLM Training | SMILES/JSON | Open | Open |
 | [SCQA (Solar Cell QA)](https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159) | Solar cells | 47K QA pairs | LLM Training | JSON | Open | Open |
+| [SciCUEval](https://arxiv.org/abs/2505.15094) | Multidomain scientific comprehension (bio/chem/phys/matsci) | 10 sub-datasets | LLM Eval | JSON/PDF | Open | Open |
+| [ScienceQA](https://scienceqa.github.io/) | K–12 science, multimodal MCQs w/ lectures & explanations | 21,208 Qs | LLM Training/Eval | JSON | MIT | Open |
+| [SciBench](https://arxiv.org/abs/2307.10635) | College-level scientific problem solving (math/chem/phys) | Open & closed sets | LLM Eval | PDF/JSON | Open | Open |
 
 ---
 
@@ -185,7 +188,7 @@ OR
 
 ---
 
-### Physics & Engineering (PDE, CFD) Datasets
+### 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
 |---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
@@ -200,6 +203,12 @@ OR
 | [Curated RANS ↔ DNS Dataset](https://doi.org/10.34740/kaggle/dsv/2637500) | 29 geometries, 4 RANS models w/ DNS/LES labels | 1.1 GB | Simulation | HDF5/CSV | CC BY 4.0 | Open |
 | [NASA Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov) | Aircraft CRM geom. + wind-tunnel & CFD results | Multi-GB | Mixed (Exp + Sim) | CAD / CSV / Tecplot | NASA PDL | Open |
 | [Darcy-Flow (FNO)](https://docs.nvidia.com/deeplearning/modulus/modulus-v2209/user_guide/neural_operators/darcy_fno.html) | 2-D porous-media pressure fields (∇·k∇u = f) | ≈ 1 GB (10 k samples) | Simulation | HDF5 | Apache-2.0 | Open |
+| [HiFi-TURB LES/DNS](https://cordis.europa.eu/project/id/814837) | High-fidelity LES/DNS for complex 3D flows | Multi-case suite | Simulation (DNS/LES) | HDF5/NetCDF | Open | Open |
+| [NASA High Lift Prediction Workshop (HLPW)](https://hiliftpw.larc.nasa.gov/) | High-lift aircraft configurations | Multi-GB | Mixed (exp + CFD) | CAD/CSV/Tecplot | NASA PDL | Open |
+| [High-Speed TBL DNS DB](https://arc.aiaa.org/doi/10.2514/1.J063456) | Compressible turbulent boundary layers | DNS database | Simulation | HDF5 | Open | Access w/ paper |
+| [GEKO Turbulence Model BO Dataset](https://www.researchgate.net/publication/389046215) | 895,640 RANS feature points w/ DNS/LES labels | ~0.9M points | Simulation/Labels | CSV | Open | Open |
+| [ML Turbulence (Kaggle)](https://www.kaggle.com/datasets/ryleymcconkey/ml-turbulence-dataset) | RANS Reynolds stress tensor data | ~GB scale | Benchmark/Simulation | CSV/HDF5 | CC BY 4.0 | Open |
+| [HiFiLeD / ERCOFTAC LES-DNS](https://www.ercoftac.org/events/les-dns-symposium3/) | Industrial LES/DNS cases | Multiple | Simulation | Various | Open | Open |
 
 ---
 
@@ -218,14 +227,11 @@ OR
 * [Foundry-ML](https://materialsdatafacility.org/portal) *search Foundry* - 61 structured datasets ready for download through a Python client #TODO list some of these in the tables above
 
 ## TODO
-* Add StarryData2: [https://github.com/starrydata/starrydata_datasets](Dataset Link)
 * Add all OpenQDC datasets https://www.openqdc.io/datasets
-* Classify and add [CRIPT](https://www.criptapp.org) for polymer data
 * A dataset on solubilities of gases in polymers (15 000 experimental measurements of 79 gases' uptakes (0.01–50 wt%) in 102 different polymers, pressures from 1 × 10−3 to 7 × 102 bar and temperatures from 233 to 508 K, includes nearly 500 solvent–polymer systems). Optimized structures of various repeating units are included. Should it be of interest for you, it is available here: [Data](https://github.com/Shorku/rhnet/tree/main/data)
 * Add [Materials Cloud Datasets](https://www.materialscloud.org/discover/menu)
 * Classify [Atomly](https://atomly.net/#/). A bit challenging with non-English
 * Look into adding NOMAD for experimental data as well
-* Review [Alexandria Materials](https://alexandria.icams.rub.de)
 * Add A Quantum-Chemical Bonding Database for Solid-State Materials Part 1: https://zenodo.org/records/8091844 Part 2: https://zenodo.org/records/8092187
 * Add QM datasets. http://quantum-machine.org/datasets/
 * Find link for | ChemRxivQuest | Chemistry literature QA | 970 curated QA pairs | LLM Training | JSON | CC BY 4.0 | Open | [ChemRxivQuest](https://arxiv.org/abs/2505.05232) |
@@ -261,12 +267,13 @@ Thanks to the open data and research communities including:
 If this repository was helpful in your work, feel free to cite or star the repo. You can also reference the underlying dataset publications linked above.
 
 ## Changelog
+This Changelog is autogenerated, there may be errors.
 
 ### July 2025
 
-Expanded the collection into new scientific domains with 25 new datasets, introducing benchmarks for physics-based machine learning, adding comprehensive quantum mechanics datasets, and expanding materials science resources.
+Expanded the collection into new scientific domains with 34 new datasets, introducing benchmarks for physics-based machine learning, adding comprehensive quantum mechanics datasets, expanding materials science resources, and enhancing scientific evaluation benchmarks.
 
-#### 💨 Physics & Engineering Datasets (11 datasets)
+#### 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets (17 datasets)
 - **PDEBench**: A comprehensive benchmark suite for scientific machine learning featuring a wide range of Partial Differential Equations. It provides large, ready-to-use datasets for challenging physics problems, supporting both forward and inverse modeling.
 - **BLASTNet**: A 17 TB collection of high-fidelity fluid mechanics simulation datasets for ML applications in automotive, propulsion, and energy sectors. It includes code and pre-trained models for tasks like turbulence modeling and spatio-temporal prediction.
 - **JHTDB**: multi-terabyte DNS/LES portal with isotropic, channel, MHD, boundary-layer and atmospheric datasets.
@@ -278,6 +285,12 @@ Expanded the collection into new scientific domains with 25 new datasets, introd
 - **Curated RANS ↔ DNS**: Scientific Data descriptor + Kaggle mirror for ML turbulence closures.
 - **NASA CRM**: open CAD, grids, wind-tunnel Cp & force/moment datasets for the community benchmark.
 - **Darcy Flow (FNO)**: canonical permeability→pressure dataset used in FNO/PINO papers.
+- **HiFi-TURB LES/DNS**: EU-funded project providing high-fidelity Large Eddy Simulation and Direct Numerical Simulation datasets for complex 3D turbulent flows, supporting advanced turbulence modeling and AI/ML applications in computational fluid dynamics.
+- **NASA High Lift Prediction Workshop (HLPW)**: Multi-phase workshop datasets featuring high-lift aircraft configurations with comprehensive experimental validation data, CAD geometries, and CFD solutions for aerodynamic modeling and validation.
+- **High-Speed TBL DNS DB**: Specialized database of Direct Numerical Simulation data for compressible turbulent boundary layers, providing detailed flow field information for high-speed aerodynamic applications and turbulence model development.
+- **GEKO Turbulence Model BO Dataset**: Bayesian optimization dataset containing 895,640 RANS feature points with DNS/LES reference labels, designed for machine learning-enhanced turbulence modeling and closure development.
+- **ML Turbulence (Kaggle)**: Community-contributed dataset featuring RANS Reynolds stress tensor data with ground truth labels, providing a standardized benchmark for machine learning approaches to turbulence modeling.
+- **HiFiLeD / ERCOFTAC LES-DNS**: Collection of industrial-scale Large Eddy Simulation and Direct Numerical Simulation cases from the European Research Community on Flow, Turbulence and Combustion, supporting high-fidelity CFD research and development.
 These additions give researchers ready-to-train data for high-Re wall turbulence, compressible flows, porous-media transport, global atmosphere, and aeronautical configurations, rounding out the repository’s materials/chemistry focus with state-of-the-art CFD & PDE benchmarks.
 
 #### 🧮 Computational Datasets (7 datasets)
@@ -289,10 +302,13 @@ These additions give researchers ready-to-train data for high-Re wall turbulence
 - **Matbench v0.1 & Discovery**: Comprehensive benchmarking suites for materials property prediction featuring 13 standardized tasks across 10 datasets. Matbench Discovery specifically targets stability prediction, thermal conductivity, and structure generation with rigorous evaluation protocols.
 - **Materials Cloud Archives**: Centralized repository of over 1,000 computational datasets from various DFT and molecular dynamics workflows. Provides standardized access to diverse materials science calculations with comprehensive metadata and version control.
 
-#### 📚 LLM Training Datasets (3 datasets)
+#### 📚 LLM Training Datasets (6 datasets)
 - **LLM-EO (Evolutionary Optimization)**: A framework that integrates LLMs into evolutionary algorithms for optimizing transition metal complexes. This approach leverages the chemical knowledge of LLMs to surpass traditional genetic algorithms, enabling flexible, multi-objective optimization without complex mathematical formulations.
 - **Flavor Analysis and Recognition Transformer**: A state-of-the-art machine learning model dataset for predicting molecular taste from chemical structures. Built on ChemBERTa transformer architecture, it classifies molecules across four taste categories (sweet, bitter, sour, umami) with >91% accuracy, enabling interpretability through gradient-based visualizations and applications in flavor compound discovery and rational food design.
 - **SCQA (Solar Cell QA)**: Domain-specific question-answering dataset containing 47,268 QA pairs about solar cell properties, auto-generated using ChemDataExtractor. Fine-tuning language models on this dataset achieves F1-scores exceeding general-English QA datasets by 10-20%, demonstrating the value of domain-specific training data for specialized scientific applications.
+- **SciCUEval**: Multidomain scientific comprehension evaluation dataset spanning biology, chemistry, physics, and materials science with 10 sub-datasets. Designed for rigorous assessment of LLM understanding across diverse scientific disciplines.
+- **ScienceQA**: Comprehensive K-12 science education dataset with 21,208 multimodal multiple-choice questions including lectures and explanations. Supports development of educational AI systems and scientific reasoning capabilities in language models.
+- **SciBench**: College-level scientific problem-solving benchmark covering mathematics, chemistry, and physics with both open and closed evaluation sets. Enables systematic assessment of LLM performance on advanced scientific reasoning tasks.
 
 #### 🧪 Experimental Datasets (4 datasets)
 - **Anion Solvation DB**: Comprehensive compilation of 26,000+ solvation properties including 8,241 experimental pKa values across 8 solvents, 5,536 computed gas-phase acidities, and over 12,000 solvation energies for anions and neutral compounds computed using COSMO-RS. Bridges experimental and computational approaches for understanding anion behavior in different solvation environments.
