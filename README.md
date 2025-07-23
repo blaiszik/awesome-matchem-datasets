@@ -167,7 +167,7 @@ OR
 | [LLM4Mat](https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht?dmr%20=%201%26ec%20=%20wgc-drive-hero-goto) | Materials property prediction | 1.9M crystal structures, 45 properties, 3 modalities | LLM Training | Various | Open | Open |
 | [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub | Apache-2.0 | Open |
 | [Flavor Analysis and Recognition Transformer](https://github.com/fart-lab/fart/tree/main/dataset) | Molecular taste prediction | Multi-class taste classification dataset | LLM Training | SMILES/JSON | Open | Open |
-| [SCQA (Solar Cell QA)](TBD) | Solar cells | 47K QA pairs | LLM Training | JSON | Open | Open |
+| [SCQA (Solar Cell QA)](https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159) | Solar cells | 47K QA pairs | LLM Training | JSON | Open | Open |
 
 ---
 
