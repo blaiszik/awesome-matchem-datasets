@@ -42,6 +42,7 @@ OR
 
 | Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
 |--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
+| [BOOM: Benchmarks for Out-Of-distribution Molecules](https://github.com/FLASK-LLNL/BOOM) | Small molecules | 10 Out-Of-Distribution Tasks (1M+ entries) | Computational | CSV | Apache 2.0 | Open |
 | [MSR-ACC/TAE25](https://doi.org/10.5281/zenodo.15387279) | Small molecules | 77k CCSD(T)/CBS atomization energies | Computational | JSON | CDLA 2.0 | Open |
 | [OMat24 (Meta)](https://huggingface.co/datasets/fairchem/OMAT24)                  | Inorganic crystals      | 110M DFT entries         | Computational | JSON/HDF5   | CC BY 4.0   | Open       |
 | [OMol25 (Meta)](https://huggingface.co/facebook/OMol25)                  | Molecular chemistry     | 100M+ DFT calculations   | Computational | LMDB        | CC BY 4.0   | Open       |
