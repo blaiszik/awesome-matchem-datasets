@@ -87,7 +87,8 @@ OR
 | [Matbench Discovery](https://matbench-discovery.materialsproject.org/data) | Stability, κ, structures | Multiple files | Benchmark/Comp | CSV/ZIP | BSD‑3 | Open |
 | [Materials Cloud Archives](https://archive.materialscloud.org) | Various DFT/MD workflows | 1,000+ datasets | Computational | HDF5/JSON/CIF | Various CC | Open |
 | [MS25](https://zenodo.org/records/10901820) | MLIP benchmark (6 material systems) | Multi-system benchmark suite | Computational/Benchmark | HDF5 | Open | Open |
-
+| [RadonPy Polymer Properties Data](https://github.com/RadonPy/RadonPy/blob/648c9a492808339c9bb7ad2c1137e5a7b07614ca/data/PI1070.csv) | Polymer | ~1070 MD-calculated Properties | Computational | CSV | BSD-3 | Open |
+| [SHNITSEL Data](https://doi.org/10.5281/zenodo.15482819) | Organic Molecules | 418,870 Post-HF-calculated Ground- and Excited-states Properties | Computational | XARRAY | CC BY 4.0 | Open |
 
 
 ---
