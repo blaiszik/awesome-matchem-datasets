@@ -259,6 +259,9 @@ This project is licensed under the **MIT License**. Each dataset listed has its 
 
 ## Acknowledgements
 
+The primary effort of Ben Blaiszik on this project was performed under financial assistance award 70NANB24H049 / MML24-1001 from the National Institute of Standards and Technology (NIST).
+
+
 Thanks to the open data and research communities including:
 - Meta AI FAIR
 - The Materials Data Facility / Foundry-ML
