@@ -95,7 +95,8 @@ OR
 | [OMol25 Electronic Structures](https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md) | Molecular chemistry | 4M+ calculations | Computational | Raw DFT outputs | | Open |
 | [Unrestricted CCSD(T) Dataset For Organic Molecule Reactions](https://figshare.com/articles/dataset/Unrestricted_CCSD_T_Dataset_For_Organic_Molecule_Reactions/30267877?file=58465231) | Organic reactions | 3119 configurations | Computational | | CC BY 4.0 | Open |
 | [MC-PDFT-OPESf](https://github.com/Ferg-Lab/PDFT_OPESf) | Reaction kinetics | Diels-Alder reaction | Computational | | | Open |
-
+| [Quantum Cluster Database](https://muellergroup.jhu.edu/qcd/) | Nanoclusters | 63,015 clusters | Computational | CSV/JSON | CC BY 4.0 | Open |
+| [The Cambridge Cluster Database](https://www-wales.ch.cam.ac.uk/CCD.html) | Mixed Clusters | Multiple Files | Computational | Multiple Types | | Open |
 
 ---
 
