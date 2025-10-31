@@ -189,6 +189,7 @@ OR
 | [Open Materials Guide (OMG)](https://huggingface.co/datasets/iknow-lab/open-materials-guide-2024) | Materials synthesis | 17K synthesis recipes | LLM Training | JSON | Apache-2.0 | Open |
 | [ChemDFM](https://github.com/OpenDFM/ChemDFM) | Chemistry | 34B tokens / 2.7M instructions | LLM Training | HuggingFace | Apache-2.0 | Open |
 | [ChemTable](https://github.com/lqzxt/ChemTable) | Chemistry Tables | Large-scale benchmark | LLM Training/Benchmark | JSON | Apache-2.0 | Open |
+| [ChemCoTBench](https://huggingface.co/datasets/OpenMol/ChemCoTDataset) | Molecular reasoning | Annotated datasets | LLM Training/Benchmark | HuggingFace Dataset | Apache-2.0 | Open |
 
 
 ---
@@ -310,11 +311,12 @@ Added 15 new datasets focusing on catalysis, reaction kinetics, cluster chemistr
 - **BigSolDB 2.0**: A comprehensive dataset of 103,944 experimentally measured solubility values of 1,448 organic compounds in 213 solvents reported in 1,595 literature peer-reviewed articles.
 - **OpenExp**: Features 274,439 pairs of chemical reactions and their corresponding step-by-step instructions of experimental procedures. This dataset, compiled from the USPTO-Applications and ORD databases.
 
-#### 📚 LLM Training Datasets (4 datasets)
+#### 📚 LLM Training Datasets (5 datasets)
 - **Mat-Instructions**: A large-scale inorganic material instruction dataset with ~30k instruction-response pairs, designed to unlock the potential of LLMs in materials science.
 - **Open Materials Guide (OMG)**: A dataset of 17K high-quality, expert-verified synthesis recipes from open-access literature, which forms the basis for the AlchemyBench benchmark for LLM-guided synthesis prediction.
 - **ChemDFM**: A pioneering LLM for chemistry trained on 34B tokens from chemical literature and textbooks, and fine-tuned using 2.7M instructions. As a result, it can understand and reason with chemical knowledge in free-form dialogue.
 - **ChemTable**: A large-scale benchmark of real-world chemical tables curated from the experimental sections of literature. ChemTable supports table recognition and table understanding tasks to advance scientific reasoning in chemistry.
+- **ChemCoTBench**: A reasoning framework that bridges molecular structure understanding with arithmetic-inspired operations to formalize chemical problem-solving into transparent, step-by-step workflows for tasks like molecular optimization and reaction prediction.
 
 #### 📖 Literature-mined & Text Datasets (1 dataset)
 - **L2M3 (Large Language Model MOF Miner)**: A database of MOF synthesis conditions and properties extracted from over 40,000 research articles using LLMs, enabling analysis of synthesis-structure-property relationships.
