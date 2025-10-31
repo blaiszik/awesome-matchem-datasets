@@ -40,206 +40,206 @@ OR
 
 ### Computational Datasets
 
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
-| [BOOM: Benchmarks for Out-Of-distribution Molecules](https://github.com/FLASK-LLNL/BOOM) | Small molecules | 10 Out-Of-Distribution Tasks (1M+ entries) | Computational | CSV | Apache 2.0 | Open |
-| [MSR-ACC/TAE25](https://doi.org/10.5281/zenodo.15387279) | Small molecules | 77k CCSD(T)/CBS atomization energies | Computational | JSON | CDLA 2.0 | Open |
-| [OMat24 (Meta)](https://huggingface.co/datasets/fairchem/OMAT24)                  | Inorganic crystals      | 110M DFT entries         | Computational | JSON/HDF5   | CC BY 4.0   | Open       |
-| [OMol25 (Meta)](https://huggingface.co/facebook/OMol25)                  | Molecular chemistry     | 100M+ DFT calculations   | Computational | LMDB        | CC BY 4.0   | Open       |
-| [OMC25](https://huggingface.co/facebook/OMC25) | Molecular crystals | >27M structures | Computational | Zarr | CC BY-NC 4.0 | Open |
-| [Materials Project (LBL)](https://materialsproject.org)        | Inorganic crystals      | 500k+ compounds          | Computational | JSON/API    | CC BY 4.0   | Open       |
-| [Open Catalyst 2020 (OC20)](https://opencatalystproject.org)      | Catalysis (surfaces)    | 1.2M relaxations         | Computational | JSON/HDF5   | CC BY 4.0   | Open       |
-| [AFLOW](https://aflow.org)                          | Inorganic materials     | 3.5M materials           | Computational | REST API    | Open        | Open       |
-| [OQMD](https://oqmd.org)                          | Inorganic solids        | 1M+ compounds            | Computational | SQL/CSV     | Open         | Open       |
-| [JARVIS-DFT (NIST)](https://jarvis.nist.gov)              | 3D/2D materials          | 40k+ entries             | Computational | JSON/API    | Open       | Open       |
-| [Carolina Materials DB](http://www.carolinamatdb.org)          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       |
-| [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries)          | Various DFT/MD   | >19M calculations          | Computational | JSON        | CC BY 4.0   | Open       |
-| [MatPES](https://matpes.ai) | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open |
-| [Vector-QM24](https://doi.org/10.5281/zenodo.11164951) | Small organic and inorganic molecules | 836k conformational isomers | Computational | JSON | Placeholder | Open |
-| [AIMNet2 Dataset](https://doi.org/10.1184/R1/27629937.v1) | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON | Open | Open |
-| [RDB7](https://zenodo.org/records/13328872) | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV | Open | Open |
-| [RDB19-Rad](https://zenodo.org/records/11493786) | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV | Open | Open |
-| [QCML](https://zenodo.org/records/14859804) | Small molecules consisting of up to 8 heavy atoms | 14.7B Semi-empirical + 33.5M DFT calculations | Computational | TFDS | CC BY-NC 4.0 | Open |
-| [QM9](http://quantum-machine.org/datasets/) | Small organic molecules | 134k molecules with quantum properties | Experimental | SDF/CSV | CC BY 4.0 | Open |
-| [QM7/QM7b](http://quantum-machine.org/datasets/) | Small molecules | 7k molecules with atomization energies | Experimental | SDF/CSV | CC BY 4.0 | Open |
-| [QMugs](https://www.openqdc.io/datasets/qmugs) | Drug-like molecules | 665 k mol / 2 M conf | Computational | HDF5 | CC BY 4.0 | Open |
-| [C2DB](https://c2db.fysik.dtu.dk) | 2-D materials | ~4 000 entries | Computational | JSON/API | CC BY 4.0 | Open |
-| [ANI-1x / 1ccx](https://qcawebapps.molssi.org/ml_datasets/) | Small organic mol | 5 M (DFT) + 0.5 M (CCSD) | Computational | HDF5 | CC BY-NC 4.0 | Open |
-| [CoRE MOF 2019](https://pubs.acs.org/doi/10.1021/acs.jced.9b00835) | Metal-organic frameworks | 14 763 structures | Computational | CIF/JSON | CC BY 4.0 | Open |
-| [QMOF Database](https://figshare.com/articles/dataset/QMOF_Database/13147324) | Metal-organic frameworks | 20k+ structures (DFT) | Computational | CIF/JSON | CC BY 4.0 | Open |
-| [Catalysis-Hub](https://www.catalysis-hub.org) | Surface reactions | >100 k energies | Computational | JSON/API | CC BY 4.0 | Open |
-| [ODAC23](https://fair-chem.github.io/dac/datasets/odac.html) | MOF + CO₂/H₂O adsorption | 38 M DFT calcs | Computational | HDF5 | CC BY 4.0 | Open |
-| [MOFX-DB](https://doi.org/10.1021/acs.jced.2c00583) | Gas adsorption in MOFs | 3 M isotherm pts | Computational | CSV/HDF5 | CC BY 4.0 | Open |
-| [LeMat-Bulk](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk) | Inorganic materials (bulk) | 6.7M structures (5.9M materials) | Computational | HuggingFace Dataset | CC BY 4.0 | Open |
-| [LeMat-Traj](https://huggingface.co/datasets/LeMaterial/LeMat-Traj) | Inorganic materials (trajectories) | 113M structures | Computational | HuggingFace Dataset | CC BY 4.0 | Open |
-| [NeurIPS Open Polymer Prediction 2025](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data) | Polymers | ~1,500 test polymers with MD-derived properties | Computational | CSV | Open | Open |
-| [Carbon Data](https://github.com/jla-gardner/carbon-data) | Carbon materials | 22.9M atoms, 546 trajectories | Computational | EXTXYZ | Open | Open |
-| [MSR-ACC/TAE25](https://zenodo.org/records/15387280) | Small molecules (up to Ar) | 76,879 total atomization energies | Computational | HDF5/CSV | Open | Open |
-| [DFT Solvation Energy Dataset](https://www.doi.org/10.18126/jos5-wj65) | Small molecules | 651,290 solvation energies in 5 solvents | Computational | CSV/JSON | Open | Open |
-| [MD Simulated Monomer Properties](https://doi.org/10.18126/8p6m-e135) | Small molecules | 410 molecules with thermodynamic properties | Computational | CSV/JSON | Open | Open |
-| [Multimodal Spectroscopic Dataset](https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset) | Molecular spectroscopy | 790k molecules with simulated spectra | Computational | HDF5/JSON | Open | Open |
-| [PubChemQCR](https://huggingface.co/datasets/divelab/PubChemQCR) | Small molecules (relaxation) | 3.5M trajectories / 300M conformations | Computational | HuggingFace Dataset | Apache-2.0 | Open |
-| [MP-ALOE](https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190) | Universal MLIPs (89 elements) | ~1M r2SCAN DFT calculations | Computational | JSONL/MACE | Open | Open |
-| [Alexandria DB](https://alexandria.icams.rub.de) | Inorganic (1D–3D) | >5 M DFT calcs (PBE) | Computational | JSON/OPTIMADE/LMDB | Open | Open |
-| [Quantum‑Chemical Bonding DB (LOBSTER)](https://zenodo.org/records/8091844) | Solid‑state bonding analysis | 1,520 compounds | Computational | JSON | CC BY 4.0 | Open |
-| [MultixcQM9 (OpenQDC)](https://www.openqdc.io/datasets) | Small molecules (QM9, multi‑XC) | 133k molecules | Computational | Torch/NumPy | Open | Open |
-| [SPICE (OpenQDC)](https://www.openqdc.io/datasets) | Drug‑like molecules | 1 M conformers (energies & forces) | Computational | Torch/ASE | Open | Open |
-| [Matbench v0.1](https://matbench.materialsproject.org/) | Benchmarks (13 tasks) | 10 datasets | Benchmark/Comp | CSV/HDF5 | BSD‑3 | Open |
-| [Matbench Discovery](https://matbench-discovery.materialsproject.org/data) | Stability, κ, structures | Multiple files | Benchmark/Comp | CSV/ZIP | BSD‑3 | Open |
-| [Materials Cloud Archives](https://archive.materialscloud.org) | Various DFT/MD workflows | 1,000+ datasets | Computational | HDF5/JSON/CIF | Various CC | Open |
-| [MS25](https://zenodo.org/records/10901820) | MLIP benchmark (6 material systems) | Multi-system benchmark suite | Computational/Benchmark | HDF5 | Open | Open |
-| [RadonPy Polymer Properties Data](https://github.com/RadonPy/RadonPy/blob/648c9a492808339c9bb7ad2c1137e5a7b07614ca/data/PI1070.csv) | Polymer | ~1070 MD-calculated Properties | Computational | CSV | BSD-3 | Open |
-| [SHNITSEL Data](https://doi.org/10.5281/zenodo.15482819) | Organic Molecules | 418,870 Post-HF-calculated Ground- and Excited-states Properties | Computational | XARRAY | CC BY 4.0 | Open |
-| [Frustrated Lewis Pairs Database](https://jingyun-ye.github.io/FLPDB/) | Small Molecules | 146 Metal-free FLPs | Computational | HTML | Open | Open |
-| [AQCat25](https://huggingface.co/datasets/SandboxAQ/aqcat25) | Catalysis | 11.1M frames / 5K materials | Computational | Parquet/ASE DB | | Open |
-| [OMol25 Electronic Structures](https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md) | Molecular chemistry | 4M+ calculations | Computational | Raw DFT outputs | | Open |
-| [Unrestricted CCSD(T) Dataset For Organic Molecule Reactions](https://figshare.com/articles/dataset/Unrestricted_CCSD_T_Dataset_For_Organic_Molecule_Reactions/30267877?file=58465231) | Organic reactions | 3119 configurations | Computational | | CC BY 4.0 | Open |
-| [MC-PDFT-OPESf](https://github.com/Ferg-Lab/PDFT_OPESf) | Reaction kinetics | Diels-Alder reaction | Computational | | | Open |
-| [Quantum Cluster Database](https://muellergroup.jhu.edu/qcd/) | Nanoclusters | 63,015 clusters | Computational | CSV/JSON | CC BY 4.0 | Open |
-| [The Cambridge Cluster Database](https://www-wales.ch.cam.ac.uk/CCD.html) | Mixed Clusters | Multiple Files | Computational | Multiple Types | | Open |
+| Dataset | Domain | Size | Type | Format |
+| -------------------------------- | ------------------------- | -------------------------- | -------------- | ------------- |
+| [BOOM: Benchmarks for Out-Of-distribution Molecules](https://github.com/FLASK-LLNL/BOOM) | Small molecules | 10 Out-Of-Distribution Tasks (1M+ entries) | Computational | CSV |
+| [MSR-ACC/TAE25](https://doi.org/10.5281/zenodo.15387279) | Small molecules | 77k CCSD(T)/CBS atomization energies | Computational | JSON |
+| [OMat24 (Meta)](https://huggingface.co/datasets/fairchem/OMAT24) | Inorganic crystals | 110M DFT entries | Computational | JSON/HDF5 |
+| [OMol25 (Meta)](https://huggingface.co/facebook/OMol25) | Molecular chemistry | 100M+ DFT calculations | Computational | LMDB |
+| [OMC25](https://huggingface.co/facebook/OMC25) | Molecular crystals | >27M structures | Computational | Zarr |
+| [Materials Project (LBL)](https://materialsproject.org) | Inorganic crystals | 500k+ compounds | Computational | JSON/API |
+| [Open Catalyst 2020 (OC20)](https://opencatalystproject.org) | Catalysis (surfaces) | 1.2M relaxations | Computational | JSON/HDF5 |
+| [AFLOW](https://aflow.org) | Inorganic materials | 3.5M materials | Computational | REST API |
+| [OQMD](https://oqmd.org) | Inorganic solids | 1M+ compounds | Computational | SQL/CSV |
+| [JARVIS-DFT (NIST)](https://jarvis.nist.gov) | 3D/2D materials | 40k+ entries | Computational | JSON/API |
+| [Carolina Materials DB](http://www.carolinamatdb.org) | Hypothetical crystals | 214k structures | Computational | JSON |
+| [NOMAD](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries) | Various DFT/MD | >19M calculations | Computational | JSON |
+| [MatPES](https://matpes.ai) | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON |
+| [Vector-QM24](https://doi.org/10.5281/zenodo.11164951) | Small organic and inorganic molecules | 836k conformational isomers | Computational | JSON |
+| [AIMNet2 Dataset](https://doi.org/10.1184/R1/27629937.v1) | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON |
+| [RDB7](https://zenodo.org/records/13328872) | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV |
+| [RDB19-Rad](https://zenodo.org/records/11493786) | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV |
+| [QCML](https://zenodo.org/records/14859804) | Small molecules consisting of up to 8 heavy atoms | 14.7B Semi-empirical + 33.5M DFT calculations | Computational | TFDS |
+| [QM9](http://quantum-machine.org/datasets/) | Small organic molecules | 134k molecules with quantum properties | Experimental | SDF/CSV |
+| [QM7/QM7b](http://quantum-machine.org/datasets/) | Small molecules | 7k molecules with atomization energies | Experimental | SDF/CSV |
+| [QMugs](https://www.openqdc.io/datasets/qmugs) | Drug-like molecules | 665 k mol / 2 M conf | Computational | HDF5 |
+| [C2DB](https://c2db.fysik.dtu.dk) | 2-D materials | ~4 000 entries | Computational | JSON/API |
+| [ANI-1x / 1ccx](https://qcawebapps.molssi.org/ml_datasets/) | Small organic mol | 5 M (DFT) + 0.5 M (CCSD) | Computational | HDF5 |
+| [CoRE MOF 2019](https://pubs.acs.org/doi/10.1021/acs.jced.9b00835) | Metal-organic frameworks | 14 763 structures | Computational | CIF/JSON |
+| [QMOF Database](https://figshare.com/articles/dataset/QMOF_Database/13147324) | Metal-organic frameworks | 20k+ structures (DFT) | Computational | CIF/JSON |
+| [Catalysis-Hub](https://www.catalysis-hub.org) | Surface reactions | >100 k energies | Computational | JSON/API |
+| [ODAC23](https://fair-chem.github.io/dac/datasets/odac.html) | MOF + CO₂/H₂O adsorption | 38 M DFT calcs | Computational | HDF5 |
+| [MOFX-DB](https://doi.org/10.1021/acs.jced.2c00583) | Gas adsorption in MOFs | 3 M isotherm pts | Computational | CSV/HDF5 |
+| [LeMat-Bulk](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk) | Inorganic materials (bulk) | 6.7M structures (5.9M materials) | Computational | HuggingFace Dataset |
+| [LeMat-Traj](https://huggingface.co/datasets/LeMaterial/LeMat-Traj) | Inorganic materials (trajectories) | 113M structures | Computational | HuggingFace Dataset |
+| [NeurIPS Open Polymer Prediction 2025](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data) | Polymers | ~1,500 test polymers with MD-derived properties | Computational | CSV |
+| [Carbon Data](https://github.com/jla-gardner/carbon-data) | Carbon materials | 22.9M atoms, 546 trajectories | Computational | EXTXYZ |
+| [MSR-ACC/TAE25](https://zenodo.org/records/15387280) | Small molecules (up to Ar) | 76,879 total atomization energies | Computational | HDF5/CSV |
+| [DFT Solvation Energy Dataset](https://www.doi.org/10.18126/jos5-wj65) | Small molecules | 651,290 solvation energies in 5 solvents | Computational | CSV/JSON |
+| [MD Simulated Monomer Properties](https://doi.org/10.18126/8p6m-e135) | Small molecules | 410 molecules with thermodynamic properties | Computational | CSV/JSON |
+| [Multimodal Spectroscopic Dataset](https://github.com/rxn4chemistry/multimodal-spectroscopic-dataset) | Molecular spectroscopy | 790k molecules with simulated spectra | Computational | HDF5/JSON |
+| [PubChemQCR](https://huggingface.co/datasets/divelab/PubChemQCR) | Small molecules (relaxation) | 3.5M trajectories / 300M conformations | Computational | HuggingFace Dataset |
+| [MP-ALOE](https://figshare.com/articles/dataset/MP-ALOE_An_r2SCAN_dataset_for_universal_machine_learning_interatomic_potentials/29452190) | Universal MLIPs (89 elements) | ~1M r2SCAN DFT calculations | Computational | JSONL/MACE |
+| [Alexandria DB](https://alexandria.icams.rub.de) | Inorganic (1D–3D) | >5 M DFT calcs (PBE) | Computational | JSON/OPTIMADE/LMDB |
+| [Quantum‑Chemical Bonding DB (LOBSTER)](https://zenodo.org/records/8091844) | Solid‑state bonding analysis | 1,520 compounds | Computational | JSON |
+| [MultixcQM9 (OpenQDC)](https://www.openqdc.io/datasets) | Small molecules (QM9, multi‑XC) | 133k molecules | Computational | Torch/NumPy |
+| [SPICE (OpenQDC)](https://www.openqdc.io/datasets) | Drug‑like molecules | 1 M conformers (energies & forces) | Computational | Torch/ASE |
+| [Matbench v0.1](https://matbench.materialsproject.org/) | Benchmarks (13 tasks) | 10 datasets | Benchmark/Comp | CSV/HDF5 |
+| [Matbench Discovery](https://matbench-discovery.materialsproject.org/data) | Stability, κ, structures | Multiple files | Benchmark/Comp | CSV/ZIP |
+| [Materials Cloud Archives](https://archive.materialscloud.org) | Various DFT/MD workflows | 1,000+ datasets | Computational | HDF5/JSON/CIF |
+| [MS25](https://zenodo.org/records/10901820) | MLIP benchmark (6 material systems) | Multi-system benchmark suite | Computational/Benchmark | HDF5 |
+| [RadonPy Polymer Properties Data](https://github.com/RadonPy/RadonPy/blob/648c9a492808339c9bb7ad2c1137e5a7b07614ca/data/PI1070.csv) | Polymer | ~1070 MD-calculated Properties | Computational | CSV |
+| [SHNITSEL Data](https://doi.org/10.5281/zenodo.15482819) | Organic Molecules | 418,870 Post-HF-calculated Ground- and Excited-states Properties | Computational | XARRAY |
+| [Frustrated Lewis Pairs Database](https://jingyun-ye.github.io/FLPDB/) | Small Molecules | 146 Metal-free FLPs | Computational | HTML |
+| [AQCat25](https://huggingface.co/datasets/SandboxAQ/aqcat25) | Catalysis | 11.1M frames / 5K materials | Computational | Parquet/ASE DB |
+| [OMol25 Electronic Structures](https://github.com/facebookresearch/fairchem/blob/main/docs/molecules/datasets/omol25_elec.md) | Molecular chemistry | 4M+ calculations | Computational | Raw DFT outputs |
+| [Unrestricted CCSD(T) Dataset For Organic Molecule Reactions](https://figshare.com/articles/dataset/Unrestricted_CCSD_T_Dataset_For_Organic_Molecule_Reactions/30267877?file=58465231) | Organic reactions | 3119 configurations | Computational |  |
+| [MC-PDFT-OPESf](https://github.com/Ferg-Lab/PDFT_OPESf) | Reaction kinetics | Diels-Alder reaction | Computational |  |
+| [Quantum Cluster Database](https://muellergroup.jhu.edu/qcd/) | Nanoclusters | 63,015 clusters | Computational | CSV/JSON |
+| [The Cambridge Cluster Database](https://www-wales.ch.cam.ac.uk/CCD.html) | Mixed Clusters | Multiple Files | Computational | Multiple Types |
 
 ---
 
 ### Experimental Datasets
 
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
-|---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
-| [Crystallography Open Database (COD)](https://www.crystallography.net/cod) | Crystal structures  | ~525k entries            | Experimental | CIF/SMILES  | CC0 1.0     | Open       |
-| [NIST ICSD (subset)](https://icsd.products.fiz-karlsruhe.de)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted |
-| [CSD (Cambridge)](https://www.ccdc.cam.ac.uk)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted |
-| [opXRD](https://doi.org/10.5281/zenodo.14254270) | Crystal structures |  92552 (2179 labeled) | Experimental | JSON       | CC BY 4.0 | Open |
-| [MDR SuperCon](https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2) | Superconductivity  | legacy superconductor database w/ material composition, structure, properties, and processes | Mixed |  | CC BY 4.0 | Open |
-| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Bioactive molecules | 2.3M+ compounds with bioactivity data | Experimental | JSON/SDF | CC BY-SA 3.0 | Open |
-| [MoleculeNet](http://moleculenet.org/) | Molecular properties | 700k+ compounds across 17 datasets | Mixed | CSV/SDF | Various | Open |
-| [ESOL](http://moleculenet.org/) | Aqueous solubility | 1,128 compounds with solubility data | Experimental | CSV | Open | Open |
-| [FreeSolv](https://github.com/MobleyLab/FreeSolv) | Hydration free energy | 643 molecules with experimental data | Experimental | CSV | CC BY 4.0 | Open |
-| [Lipophilicity](https://www.ebi.ac.uk/chembl/) | Octanol/water distribution | 4,200 compounds with logD values | Experimental | CSV | Open | Open |
-| [PCBA](https://pubchem.ncbi.nlm.nih.gov/bioassay) | Bioassay screening | 400k+ compounds, 128 bioassays | Experimental | CSV | Open | Open |
-| [HIV](https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data) | Antiviral screening | 41k compounds with HIV inhibition data | Experimental | CSV | Open | Open |
-| [BACE](http://moleculenet.org/) | Beta-secretase inhibitors | 1,522 compounds with IC50 data | Experimental | CSV | Open | Open |
-| [BBBP](http://moleculenet.org/) | Blood-brain barrier permeability | 2,053 compounds with permeability data | Experimental | CSV | Open | Open |
-| [Tox21](https://tripod.nih.gov/tox21/challenge/) | Toxicity screening | 8k compounds, 12 toxicity targets | Experimental | CSV | Open | Open |
-| [ToxCast](https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data) | High-throughput toxicity | 8k compounds, 600+ assays | Experimental | CSV | Open | Open |
-| [SIDER](http://sideeffects.embl.de/) | Drug side effects | 1,427 drugs with adverse reactions | Experimental | CSV | Open | Open |
-| [ClinTox](http://moleculenet.org/) | Clinical trial toxicity | 1,491 compounds with FDA approval status | Experimental | CSV | Open | Open |
-| [PDBbind](http://www.pdbbind.org.cn/) | Protein-ligand binding | 19k complexes with binding affinities | Experimental | PDB/SDF | Open | Open |
-| [BindingDB](https://www.bindingdb.org/) | Protein-ligand binding | 2.8M+ binding data points | Experimental | CSV/SDF | CC BY 4.0 | Open |
-| [ProtBENCH](https://github.com/hevalatas/ProtBENCH) | Drug-target interactions | Protein family-specific datasets | Experimental | CSV | GPL-3.0 | Open |
-| [PDBench](https://github.com/wells-wood-research/PDBench) | Protein sequence design | 595 protein structures, 40 architectures | Experimental | PDB | MIT | Open |
-| [PDB-Struct](https://github.com/WANG-CR/PDB-Struct) | Structure-based protein design | Comprehensive protein design benchmark | Experimental | PDB | Open | Open |
-| [HTEM-DB](https://htem.nrel.gov) | Thin-film composition libraries | 140 k+ samples | Experimental | JSON/API | CC0 | Open |
-| [OCx24](https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data) | Electrocatalyst inks | 572 samples (+DFT) | Experimental | CSV | CC BY 4.0 | Open |
-| [Polymer Genome](https://khazana.gatech.edu/dataset/) | Polymers | 20 k polymers | Experimental + Comp | CSV/JSON | CC BY 4.0 | Open |
-| [CoRE MOF 2024](https://www.ccdc.cam.ac.uk/support-and-resources/downloads/) | Metal-organic frameworks | 40k+ experimental MOFs | Experimental | CIF | Open | Open |
-| [SAIR](https://pub.sandboxaq.com/data/ic50-dataset) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV | CC BY-NC-SA 4.0 | Open |
-| [Anion Solvation DB](https://doi.org/10.5281/zenodo.13987781) | Anion solvation | ~26k properties | Mixed | CSV | CC BY 4.0 | Open |
-| [BigSolDB](https://doi.org/10.5281/zenodo.6809668) | Organic molecule solubility | ~54k exp. values | Experimental | CSV | CC BY 4.0 | Open |
-| [StarryData2](https://github.com/starrydata/starrydata_datasets) | Experimental properties | Figshare dump (2023/2024) | Experimental | CSV/JSON | CC BY 4.0 | Open |
-| [CRIPT Polymer Data](https://www.criptapp.org) | Polymers (synthesis, properties) | Growing community DB | Mixed | JSON/API | CC BY 4.0 | Open |
-| [Catechol Benchmark](https://www.kaggle.com/datasets/aichemy/catechol-benchmark) | Solvent selection / Reaction yield | 1200+ process conditions | Experimental | CSV | CC BY-SA 4.0 | Open |
-| [Leeds Solubility Data](https://doi.org/10.5281/zenodo.3686213) | Solubility | 2.3k measurements | Experimental | CSV | CC BY 4.0 | Open |
-| [BigSolDB 2.0](https://doi.org/10.5281/zenodo.15094979) | Solubility | 103k+ values | Experimental | CSV/XLSX | CC BY 4.0 | Open |
-| [OpenExp](https://osf.io/e68v4/files/3dv4k) | Chemical reactions | 274k pairs | Experimental | Varies | CC-BY-SA 4.0 | Open |
+| Dataset | Domain | Size | Type | Format |
+| --------------------------------- | ------------------------- | -------------------------- | -------------- | ------------- |
+| [Crystallography Open Database (COD)](https://www.crystallography.net/cod) | Crystal structures | ~525k entries | Experimental | CIF/SMILES |
+| [NIST ICSD (subset)](https://icsd.products.fiz-karlsruhe.de) | Inorganic structures | ~290k structures | Experimental | CIF |
+| [CSD (Cambridge)](https://www.ccdc.cam.ac.uk) | Organic crystals | ~1.3M structures | Experimental | CIF |
+| [opXRD](https://doi.org/10.5281/zenodo.14254270) | Crystal structures | 92552 (2179 labeled) | Experimental | JSON |
+| [MDR SuperCon](https://mdr.nims.go.jp/collections/4c428a0c-d209-4990-ad1f-656d05d1cfe2) | Superconductivity | legacy superconductor database w/ material composition, structure, properties, and processes | Mixed |  |
+| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Bioactive molecules | 2.3M+ compounds with bioactivity data | Experimental | JSON/SDF |
+| [MoleculeNet](http://moleculenet.org/) | Molecular properties | 700k+ compounds across 17 datasets | Mixed | CSV/SDF |
+| [ESOL](http://moleculenet.org/) | Aqueous solubility | 1,128 compounds with solubility data | Experimental | CSV |
+| [FreeSolv](https://github.com/MobleyLab/FreeSolv) | Hydration free energy | 643 molecules with experimental data | Experimental | CSV |
+| [Lipophilicity](https://www.ebi.ac.uk/chembl/) | Octanol/water distribution | 4,200 compounds with logD values | Experimental | CSV |
+| [PCBA](https://pubchem.ncbi.nlm.nih.gov/bioassay) | Bioassay screening | 400k+ compounds, 128 bioassays | Experimental | CSV |
+| [HIV](https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data) | Antiviral screening | 41k compounds with HIV inhibition data | Experimental | CSV |
+| [BACE](http://moleculenet.org/) | Beta-secretase inhibitors | 1,522 compounds with IC50 data | Experimental | CSV |
+| [BBBP](http://moleculenet.org/) | Blood-brain barrier permeability | 2,053 compounds with permeability data | Experimental | CSV |
+| [Tox21](https://tripod.nih.gov/tox21/challenge/) | Toxicity screening | 8k compounds, 12 toxicity targets | Experimental | CSV |
+| [ToxCast](https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data) | High-throughput toxicity | 8k compounds, 600+ assays | Experimental | CSV |
+| [SIDER](http://sideeffects.embl.de/) | Drug side effects | 1,427 drugs with adverse reactions | Experimental | CSV |
+| [ClinTox](http://moleculenet.org/) | Clinical trial toxicity | 1,491 compounds with FDA approval status | Experimental | CSV |
+| [PDBbind](http://www.pdbbind.org.cn/) | Protein-ligand binding | 19k complexes with binding affinities | Experimental | PDB/SDF |
+| [BindingDB](https://www.bindingdb.org/) | Protein-ligand binding | 2.8M+ binding data points | Experimental | CSV/SDF |
+| [ProtBENCH](https://github.com/hevalatas/ProtBENCH) | Drug-target interactions | Protein family-specific datasets | Experimental | CSV |
+| [PDBench](https://github.com/wells-wood-research/PDBench) | Protein sequence design | 595 protein structures, 40 architectures | Experimental | PDB |
+| [PDB-Struct](https://github.com/WANG-CR/PDB-Struct) | Structure-based protein design | Comprehensive protein design benchmark | Experimental | PDB |
+| [HTEM-DB](https://htem.nrel.gov) | Thin-film composition libraries | 140 k+ samples | Experimental | JSON/API |
+| [OCx24](https://github.com/facebookresearch/fairchem/tree/main/src/fairchem/applications/ocx/data) | Electrocatalyst inks | 572 samples (+DFT) | Experimental | CSV |
+| [Polymer Genome](https://khazana.gatech.edu/dataset/) | Polymers | 20 k polymers | Experimental + Comp | CSV/JSON |
+| [CoRE MOF 2024](https://www.ccdc.cam.ac.uk/support-and-resources/downloads/) | Metal-organic frameworks | 40k+ experimental MOFs | Experimental | CIF |
+| [SAIR](https://pub.sandboxaq.com/data/ic50-dataset) | Protein-ligand binding | 1M+ complexes, 5.2M structures, 2.5TB | Experimental | 3D/CSV |
+| [Anion Solvation DB](https://doi.org/10.5281/zenodo.13987781) | Anion solvation | ~26k properties | Mixed | CSV |
+| [BigSolDB](https://doi.org/10.5281/zenodo.6809668) | Organic molecule solubility | ~54k exp. values | Experimental | CSV |
+| [StarryData2](https://github.com/starrydata/starrydata_datasets) | Experimental properties | Figshare dump (2023/2024) | Experimental | CSV/JSON |
+| [CRIPT Polymer Data](https://www.criptapp.org) | Polymers (synthesis, properties) | Growing community DB | Mixed | JSON/API |
+| [Catechol Benchmark](https://www.kaggle.com/datasets/aichemy/catechol-benchmark) | Solvent selection / Reaction yield | 1200+ process conditions | Experimental | CSV |
+| [Leeds Solubility Data](https://doi.org/10.5281/zenodo.3686213) | Solubility | 2.3k measurements | Experimental | CSV |
+| [BigSolDB 2.0](https://doi.org/10.5281/zenodo.15094979) | Solubility | 103k+ values | Experimental | CSV/XLSX |
+| [OpenExp](https://osf.io/e68v4/files/3dv4k) | Chemical reactions | 274k pairs | Experimental | Varies |
 
 
 ---
 
 ### LLM Training Datasets
 
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
-| [ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1)                       | Chemistry               | 75B+ tokens              | LLM Training | Mixed       | Open        | Open       |
-| [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) | Small molecules | 3.3M samples | LLM Training | JSON | CC BY 4.0 | Open |
-| [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) | Chemistry | 20K problem-solution pairs | LLM Training | JSON | Open | Open |
-| [ChemNLP](https://github.com/OpenBioML/chemnlp) | Chemistry | Extensive, many combined datasets | LLM Training | JSON | Open | Open |
-| [ChemQA](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | Multimodal QA dataset | LLM Training | JSON | Open | Open |
-| [ChemLLMBench](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | 8 chemistry tasks benchmark | LLM Training | JSON | Open | Open |
-| [ChemistryQA](https://github.com/microsoft/chemistry-qa) | Chemistry | 4,500 questions across 200 topics | LLM Training | JSON | Open | Open |
-| [MaScQA](https://github.com/abhijeetgangan/MaSTeA) | Materials Science | 640 QA pairs | LLM Training | XLSX | Open | Open |
-| [SciCode](https://scicode-bench.github.io) | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON | Open | Open |
-| [ChemData 700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON | CC BY-NC 4.0 | Open |
-| [MatSci-Instruct (HoneyBee)](https://zenodo.org/record/10119842) | Materials science | ≈55K verified instructions | LLM Training | JSON | CC BY 4.0 | Open |
-| [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON | MIT | Open |
-| [BioInstruct 25K](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON | MIT | Open |
-| [Lab-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) | Biology | 2,400+ questions for biology agents | LLM Training | JSON | Open | Open |
-| [ChemBench 4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON | CC BY-NC 4.0 | Open |
-| [GPQA Diamond](https://github.com/idavidrein/gpqa) | Biology, Physics, Chemistry | 448 multiple-choice questions | LLM Training | JSON | Open | Open |
-| [MaCBench](https://macbench.lamalab.org) | Chemistry and materials science | Vision-language tasks | LLM Training | JSON | Open | Open |
-| [ChemBench](https://chembench.lamalab.org) | Chemistry | 2,700+ question-answer pairs | LLM Training | JSON | Open | Open |
-| [MatText](https://huggingface.co/datasets/n0w0f/MatText) | Materials property prediction | 2M structures | LLM Training | HuggingFace Dataset | Open | Open |
-| [SciAssess](https://github.com/sci-assess/SciAssess) | Scientific literature analysis | Benchmark for LLMs in science | LLM Training | JSON | Open | Open |
-| [ZINC20-ML](https://files.docking.org/zinc20-ML/) | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES | ZINC License | Open |
-| [PMC Open Access Subset](https://huggingface.co/datasets/pmc/open_access) | Biomedical full-text | 3.4M+ articles | LLM Training | XML | Various CC | Open |
-| [MatScholar Task-Schema QA (MatSci-NLP)](https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON | CC BY 4.0 | Open |
-| [Mol-Instructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0) | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset  |  Open | Open |
-| [USPTO-LLM](https://zenodo.org/records/14396156) | Chemical reactions | 247K reactions | LLM Training | JSON/Graph | CC BY 4.0 | Open |
-| [ChemRxivQuest](https://arxiv.org/abs/2505.05232) | Chem literature QA | 970 QA pairs | LLM Training | JSON | CC BY 4.0 | Open |
-| [USPTO-Lowe](https://figshare.com/articles/dataset/5104873) | Patent reactions | 1.8 M reactions | Literature-mined | RXN/SMILES | CC BY 4.0 | Open |
-| [MolTextNet](https://huggingface.co/datasets/liuganghuggingface/moltextnet) | Small molecules with text | 2.5M molecule-text pairs | LLM Training | HuggingFace Dataset | Open | Open |
-| [MolOpt-Instructions](https://huggingface.co/datasets/blazerye/MolOpt-Instructions) | Molecule optimization | 1.18M instruction-based optimization tasks | LLM Training | HuggingFace Dataset | Open | Open |
-| [TextEdge](https://drive.google.com/drive/folders/1YCDBzwjwNRIc1FRkB662G3Y5AOWaokUG?ths=true) | Crystal properties | Crystal text descriptions with properties | LLM Training | JSON | Open | Open |
-| [LAMBench-TrainingSet-v1](https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308) | Materials structures | 19.8M structures for Large Atom Models | LLM Training | Various | Open | Open |
-| [LLM4Mat](https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht?dmr%20=%201%26ec%20=%20wgc-drive-hero-goto) | Materials property prediction | 1.9M crystal structures, 45 properties, 3 modalities | LLM Training | Various | Open | Open |
-| [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub | Apache-2.0 | Open |
-| [Flavor Analysis and Recognition Transformer](https://github.com/fart-lab/fart/tree/main/dataset) | Molecular taste prediction | Multi-class taste classification dataset | LLM Training | SMILES/JSON | Open | Open |
-| [SCQA (Solar Cell QA)](https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159) | Solar cells | 47K QA pairs | LLM Training | JSON | Open | Open |
-| [ScienceQA](https://scienceqa.github.io/) | K–12 science, multimodal MCQs w/ lectures & explanations | 21,208 Qs | LLM Training/Eval | JSON | MIT | Open |
-| [SciBench](https://scibench-ucla.github.io) | College-level scientific problem solving (math/chem/phys) | Open & closed sets | LLM Eval | PDF/JSON | Open | Open |
-| [MegaScience](https://huggingface.co/MegaScience) | Scientific reasoning (7 disciplines) | 1.25M instances (650k reasoning questions from 12k textbooks) | LLM Training | HuggingFace Dataset | Open | Open |
-| [Mat-Instructions](https://github.com/AI4MOL/Mat-Instruction) | Inorganic materials | ~30k instructions | LLM Training | JSON | | Open |
-| [Open Materials Guide (OMG)](https://huggingface.co/datasets/iknow-lab/open-materials-guide-2024) | Materials synthesis | 17K synthesis recipes | LLM Training | JSON | Apache-2.0 | Open |
-| [ChemDFM](https://github.com/OpenDFM/ChemDFM) | Chemistry | 34B tokens / 2.7M instructions | LLM Training | HuggingFace | Apache-2.0 | Open |
-| [ChemTable](https://github.com/lqzxt/ChemTable) | Chemistry Tables | Large-scale benchmark | LLM Training/Benchmark | JSON | Apache-2.0 | Open |
-| [ChemCoTBench](https://huggingface.co/datasets/OpenMol/ChemCoTDataset) | Molecular reasoning | Annotated datasets | LLM Training/Benchmark | HuggingFace Dataset | Apache-2.0 | Open |
+| Dataset | Domain | Size | Type | Format |
+| -------------------------------- | ------------------------- | -------------------------- | -------------- | ------------- |
+| [ChemPile](https://huggingface.co/collections/jablonkagroup/chempile-6824e88c60d3286ba9b0dae1) | Chemistry | 75B+ tokens | LLM Training | Mixed |
+| [SmolInstruct](https://huggingface.co/datasets/osunlp/SMolInstruct) | Small molecules | 3.3M samples | LLM Training | JSON |
+| [CAMEL](https://huggingface.co/datasets/camel-ai/chemistry) | Chemistry | 20K problem-solution pairs | LLM Training | JSON |
+| [ChemNLP](https://github.com/OpenBioML/chemnlp) | Chemistry | Extensive, many combined datasets | LLM Training | JSON |
+| [ChemQA](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | Multimodal QA dataset | LLM Training | JSON |
+| [ChemLLMBench](https://github.com/ChemFoundationModels/ChemLLMBench) | Chemistry | 8 chemistry tasks benchmark | LLM Training | JSON |
+| [ChemistryQA](https://github.com/microsoft/chemistry-qa) | Chemistry | 4,500 questions across 200 topics | LLM Training | JSON |
+| [MaScQA](https://github.com/abhijeetgangan/MaSTeA) | Materials Science | 640 QA pairs | LLM Training | XLSX |
+| [SciCode](https://scicode-bench.github.io) | Research Coding in Physics, Math, Material Science, Biology, and Chemistry | 338 subproblems | LLM Training | JSON |
+| [ChemData 700K](https://huggingface.co/datasets/AI4Chem/ChemData700K) | Chemistry (9 core tasks) | 730K Q-A instruction pairs | LLM Training | JSON |
+| [MatSci-Instruct (HoneyBee)](https://zenodo.org/record/10119842) | Materials science | ≈55K verified instructions | LLM Training | JSON |
+| [MoleculeQA](https://huggingface.co/datasets/hcaoaf/MoleculeQA) | Molecular properties & safety | 62K multiple-choice QA pairs | LLM Training | JSON |
+| [BioInstruct 25K](https://huggingface.co/datasets/bio-nlp-umass/bioinstruct) | Biomedical / biochemistry | 25K GPT-4 generated instructions | LLM Training | JSON |
+| [Lab-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) | Biology | 2,400+ questions for biology agents | LLM Training | JSON |
+| [ChemBench 4K](https://huggingface.co/datasets/AI4Chem/ChemBench4K) | Chemistry competency benchmark | 4,100 single-choice questions | LLM Training | JSON |
+| [GPQA Diamond](https://github.com/idavidrein/gpqa) | Biology, Physics, Chemistry | 448 multiple-choice questions | LLM Training | JSON |
+| [MaCBench](https://macbench.lamalab.org) | Chemistry and materials science | Vision-language tasks | LLM Training | JSON |
+| [ChemBench](https://chembench.lamalab.org) | Chemistry | 2,700+ question-answer pairs | LLM Training | JSON |
+| [MatText](https://huggingface.co/datasets/n0w0f/MatText) | Materials property prediction | 2M structures | LLM Training | HuggingFace Dataset |
+| [SciAssess](https://github.com/sci-assess/SciAssess) | Scientific literature analysis | Benchmark for LLMs in science | LLM Training | JSON |
+| [ZINC20-ML](https://files.docking.org/zinc20-ML/) | Drug-like molecules (SMILES) | ≈1B molecules | LLM Training | SMILES |
+| [PMC Open Access Subset](https://huggingface.co/datasets/pmc/open_access) | Biomedical full-text | 3.4M+ articles | LLM Training | XML |
+| [MatScholar Task-Schema QA (MatSci-NLP)](https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23) | Materials science (7 NLP tasks) | Tens of thousands of examples | LLM Training | JSON |
+| [Mol-Instructions](https://huggingface.co/collections/zjunlp/mol-instructions-662e0b9435ab6df9593e8ea0) | Chemistry | molecular, protein, and biochemical instructions | LLM Training | HuggingFace Dataset |
+| [USPTO-LLM](https://zenodo.org/records/14396156) | Chemical reactions | 247K reactions | LLM Training | JSON/Graph |
+| [ChemRxivQuest](https://arxiv.org/abs/2505.05232) | Chem literature QA | 970 QA pairs | LLM Training | JSON |
+| [USPTO-Lowe](https://figshare.com/articles/dataset/5104873) | Patent reactions | 1.8 M reactions | Literature-mined | RXN/SMILES |
+| [MolTextNet](https://huggingface.co/datasets/liuganghuggingface/moltextnet) | Small molecules with text | 2.5M molecule-text pairs | LLM Training | HuggingFace Dataset |
+| [MolOpt-Instructions](https://huggingface.co/datasets/blazerye/MolOpt-Instructions) | Molecule optimization | 1.18M instruction-based optimization tasks | LLM Training | HuggingFace Dataset |
+| [TextEdge](https://drive.google.com/drive/folders/1YCDBzwjwNRIc1FRkB662G3Y5AOWaokUG?ths=true) | Crystal properties | Crystal text descriptions with properties | LLM Training | JSON |
+| [LAMBench-TrainingSet-v1](https://aissquare.com/datasets/detail?pageType=datasets&name=LAMBench-TrainingSet-v1&id=308) | Materials structures | 19.8M structures for Large Atom Models | LLM Training | Various |
+| [LLM4Mat](https://drive.google.com/drive/folders/1HpGhuNHG4EQCQMZaKPwEQNH9stJKw-ht?dmr%20=%201%26ec%20=%20wgc-drive-hero-goto) | Materials property prediction | 1.9M crystal structures, 45 properties, 3 modalities | LLM Training | Various |
+| [LLM-EO](https://github.com/deepprinciple/llmeo) | Transition metal complexes / Optimization | 1.37M TMC space explored | LLM Training | GitHub |
+| [Flavor Analysis and Recognition Transformer](https://github.com/fart-lab/fart/tree/main/dataset) | Molecular taste prediction | Multi-class taste classification dataset | LLM Training | SMILES/JSON |
+| [SCQA (Solar Cell QA)](https://huggingface.co/collections/CambridgeMolecularEngineering/solar-cell-qa-datasets-67b398f1b9c0f0dd7600a159) | Solar cells | 47K QA pairs | LLM Training | JSON |
+| [ScienceQA](https://scienceqa.github.io/) | K–12 science, multimodal MCQs w/ lectures & explanations | 21,208 Qs | LLM Training/Eval | JSON |
+| [SciBench](https://scibench-ucla.github.io) | College-level scientific problem solving (math/chem/phys) | Open & closed sets | LLM Eval | PDF/JSON |
+| [MegaScience](https://huggingface.co/MegaScience) | Scientific reasoning (7 disciplines) | 1.25M instances (650k reasoning questions from 12k textbooks) | LLM Training | HuggingFace Dataset |
+| [Mat-Instructions](https://github.com/AI4MOL/Mat-Instruction) | Inorganic materials | ~30k instructions | LLM Training | JSON |
+| [Open Materials Guide (OMG)](https://huggingface.co/datasets/iknow-lab/open-materials-guide-2024) | Materials synthesis | 17K synthesis recipes | LLM Training | JSON |
+| [ChemDFM](https://github.com/OpenDFM/ChemDFM) | Chemistry | 34B tokens / 2.7M instructions | LLM Training | HuggingFace |
+| [ChemTable](https://github.com/lqzxt/ChemTable) | Chemistry Tables | Large-scale benchmark | LLM Training/Benchmark | JSON |
+| [ChemCoTBench](https://huggingface.co/datasets/OpenMol/ChemCoTDataset) | Molecular reasoning | Annotated datasets | LLM Training/Benchmark | HuggingFace Dataset |
 
 
 ---
 
 ### Literature-mined & Text Datasets
 
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
-| [PubChem](https://pubchem.ncbi.nlm.nih.gov)                        | Molecules & data        | 119M compounds           | Literature    | SMILES/SDF  | Public Domain | Open    |
-| [Open Reaction Database (ORD)](https://open-reaction-database.org)   | Synthetic reactions     | ~1M reactions            | Experimental/Lit | JSON     | CC BY 4.0   | Open       |
-| [PatCID (IBM)](https://github.com/DS4SD/PatCID)                   | Chemical image data     | 81M images / 13M mols    | Literature    | PNG/SMILES  | Open        | Open       |
-| [MatScholar](https://matscholar.com)                     | NLP corpus (materials)  | 5M+ abstracts            | Literature    | JSON/Graph  | Open        | Open       |
-| [Matbench (metadata/text tasks)](https://matbench.materialsproject.org/) | Text/meta ML tasks | 13 tasks | Literature/Benchmark | CSV | BSD‑3 | Open |
-| [OpenQDC Hub](https://github.com/valence-labs/openQDC) | QM molecules & reactions | 1.5 B geometries | Literature/Computational | Python API/NPZ | MIT | Open |
-| [L2M3 - Large Language Model MOF Miner](https://figshare.com/articles/dataset/L2M3_Database/27187917) | Metal-organic frameworks | from >40k articles | Literature-mined | CSV | CC BY 4.0 | Open |
+| Dataset | Domain | Size | Type | Format |
+| -------------------------------- | ------------------------- | -------------------------- | -------------- | ------------- |
+| [PubChem](https://pubchem.ncbi.nlm.nih.gov) | Molecules & data | 119M compounds | Literature | SMILES/SDF |
+| [Open Reaction Database (ORD)](https://open-reaction-database.org) | Synthetic reactions | ~1M reactions | Experimental/Lit | JSON |
+| [PatCID (IBM)](https://github.com/DS4SD/PatCID) | Chemical image data | 81M images / 13M mols | Literature | PNG/SMILES |
+| [MatScholar](https://matscholar.com) | NLP corpus (materials) | 5M+ abstracts | Literature | JSON/Graph |
+| [Matbench (metadata/text tasks)](https://matbench.materialsproject.org/) | Text/meta ML tasks | 13 tasks | Literature/Benchmark | CSV |
+| [OpenQDC Hub](https://github.com/valence-labs/openQDC) | QM molecules & reactions | 1.5 B geometries | Literature/Computational | Python API/NPZ |
+| [L2M3 - Large Language Model MOF Miner](https://figshare.com/articles/dataset/L2M3_Database/27187917) | Metal-organic frameworks | from >40k articles | Literature-mined | CSV |
 
 ---
 
 ### 🌊 Computational Fluid Dynamics, PDE & Engineering Datasets
 
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     |
-|---------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|
-| [PDEBench](https://github.com/pdebench/PDEBench) | PDE solving / Scientific ML | Multiple datasets | Benchmark / Simulation | HDF5/PyTorch | Apache-2.0 | Open |
-| [BLASTNet](https://blastnet.github.io) | Fluid mechanics / Reacting flows | 17 TB | Simulation / CFD | HDF5/NPY | Open | Open |
-| [Johns Hopkins Turbulence DB (JHTDB)](https://turbulence.pha.jhu.edu) | DNS/LES turbulence (9 canonical flows) | ≈ 350 TB | Simulation | Web API / HDF5 cutouts | Public Domain | Open |
-| [Airfoil CFD 2k](https://data.openei.org/submissions/5970) | 1,830 airfoils × 25 AoA × 3 Re | ~6 GB (250 k cases) | Simulation | HDF5 | CC BY 4.0 | Open |
-| [PDEArena (collection)](https://huggingface.co/pdearena) | 2-D Navier–Stokes, Shallow-Water, 3-D Maxwell | ≈ 100 GB (4 datasets) | Simulation | Torch / HDF5 | MIT | Open |
-| [WeatherBench 2](https://github.com/pangeo-data/WeatherBench) | Global weather reanalysis (ERA5, 1979-2023) | ≈ 5 TB | Reanalysis | NetCDF/Zarr | MIT | Open |
-| [UT Austin Channel-DNS Suite](https://turbulence.oden.utexas.edu) | Incompressible channel flow Re<sub>τ</sub> 180 – 5200 | ≈ 10 TB | Simulation | Binary / ASCII | Research-Free | Open |
-| [Compressible TPC DNS DB](https://data.mendeley.com/datasets/wt8t5kxzbs) | Compressible channel flow (25 M, Re<sub>τ*</sub>) | ~2 GB | Simulation | TXT tables | CC BY 4.0 | Open |
-| [Curated RANS ↔ DNS Dataset](https://doi.org/10.34740/kaggle/dsv/2637500) | 29 geometries, 4 RANS models w/ DNS/LES labels | 1.1 GB | Simulation | HDF5/CSV | CC BY 4.0 | Open |
-| [NASA Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov) | Aircraft CRM geom. + wind-tunnel & CFD results | Multi-GB | Mixed (Exp + Sim) | CAD / CSV / Tecplot | NASA PDL | Open |
-| [Darcy-Flow (FNO)](https://github.com/neuraloperator/neuraloperator) | 2-D porous-media pressure fields (∇·k∇u = f) | ≈ 1 GB (10 k samples) | Simulation | HDF5 | Apache-2.0 | Open |
-| [HiFi-TURB LES/DNS](https://cordis.europa.eu/project/id/814837) | High-fidelity LES/DNS for complex 3D flows | Multi-case suite | Simulation (DNS/LES) | HDF5/NetCDF | Open | Open |
-| [NASA High Lift Prediction Workshop (HLPW)](https://hiliftpw.larc.nasa.gov/) | High-lift aircraft configurations | Multi-GB | Mixed (exp + CFD) | CAD/CSV/Tecplot | NASA PDL | Open |
-| [High-Speed TBL DNS DB](https://arc.aiaa.org/doi/10.2514/1.J063456) | Compressible turbulent boundary layers | DNS database | Simulation | HDF5 | Open | Access w/ paper |
-| [ML Turbulence (Kaggle)](https://www.kaggle.com/datasets/ryleymcconkey/ml-turbulence-dataset) | RANS Reynolds stress tensor data | ~GB scale | Benchmark/Simulation | CSV/HDF5 | CC BY 4.0 | Open |
+| Dataset | Domain | Size | Type | Format |
+| --------------------------------- | ------------------------- | -------------------------- | -------------- | ------------- |
+| [PDEBench](https://github.com/pdebench/PDEBench) | PDE solving / Scientific ML | Multiple datasets | Benchmark / Simulation | HDF5/PyTorch |
+| [BLASTNet](https://blastnet.github.io) | Fluid mechanics / Reacting flows | 17 TB | Simulation / CFD | HDF5/NPY |
+| [Johns Hopkins Turbulence DB (JHTDB)](https://turbulence.pha.jhu.edu) | DNS/LES turbulence (9 canonical flows) | ≈ 350 TB | Simulation | Web API / HDF5 cutouts |
+| [Airfoil CFD 2k](https://data.openei.org/submissions/5970) | 1,830 airfoils × 25 AoA × 3 Re | ~6 GB (250 k cases) | Simulation | HDF5 |
+| [PDEArena (collection)](https://huggingface.co/pdearena) | 2-D Navier–Stokes, Shallow-Water, 3-D Maxwell | ≈ 100 GB (4 datasets) | Simulation | Torch / HDF5 |
+| [WeatherBench 2](https://github.com/pangeo-data/WeatherBench) | Global weather reanalysis (ERA5, 1979-2023) | ≈ 5 TB | Reanalysis | NetCDF/Zarr |
+| [UT Austin Channel-DNS Suite](https://turbulence.oden.utexas.edu) | Incompressible channel flow Re<sub>τ</sub> 180 – 5200 | ≈ 10 TB | Simulation | Binary / ASCII |
+| [Compressible TPC DNS DB](https://data.mendeley.com/datasets/wt8t5kxzbs) | Compressible channel flow (25 M, Re<sub>τ*</sub>) | ~2 GB | Simulation | TXT tables |
+| [Curated RANS ↔ DNS Dataset](https://doi.org/10.34740/kaggle/dsv/2637500) | 29 geometries, 4 RANS models w/ DNS/LES labels | 1.1 GB | Simulation | HDF5/CSV |
+| [NASA Common Research Model (CRM)](https://commonresearchmodel.larc.nasa.gov) | Aircraft CRM geom. + wind-tunnel & CFD results | Multi-GB | Mixed (Exp + Sim) | CAD / CSV / Tecplot |
+| [Darcy-Flow (FNO)](https://github.com/neuraloperator/neuraloperator) | 2-D porous-media pressure fields (∇·k∇u = f) | ≈ 1 GB (10 k samples) | Simulation | HDF5 |
+| [HiFi-TURB LES/DNS](https://cordis.europa.eu/project/id/814837) | High-fidelity LES/DNS for complex 3D flows | Multi-case suite | Simulation (DNS/LES) | HDF5/NetCDF |
+| [NASA High Lift Prediction Workshop (HLPW)](https://hiliftpw.larc.nasa.gov/) | High-lift aircraft configurations | Multi-GB | Mixed (exp + CFD) | CAD/CSV/Tecplot |
+| [High-Speed TBL DNS DB](https://arc.aiaa.org/doi/10.2514/1.J063456) | Compressible turbulent boundary layers | DNS database | Simulation | HDF5 |
+| [ML Turbulence (Kaggle)](https://www.kaggle.com/datasets/ryleymcconkey/ml-turbulence-dataset) | RANS Reynolds stress tensor data | ~GB scale | Benchmark/Simulation | CSV/HDF5 |
 
 ---
 
 ### Proprietary Datasets (for reference)
 
-| Dataset                         | Domain                  | Size                     | Access      | Use Case Notes |
-|--------------------------------|-------------------------|--------------------------|-------------|----------------|
-| CAS Registry                   | Chemical substances     | 250M+ substances         | Proprietary | Industry standard for molecule indexing |
-| Reaxys (Elsevier)              | Reactions & properties  | Millions of reactions    | Proprietary | Rich curated literature reaction data |
-| Citrine Informatics DB         | Experimental materials  | Private                  | Proprietary | Materials ML platform w/ industry data |
-| CSD (Cambridge)                | Organic crystals        | 1.3M+                    | Proprietary | Gold-standard X-ray structures |
-| [PoLyInfo](https://polymer.nims.go.jp/en/)   | Polymers & properties   | 500k+ data points / Experimental       | Proprietary  | Polymer properties from literature sources |
+| Dataset | Domain | Size | Use Case Notes |
+| -------------------------------- | ------------------------- | -------------------------- | ---------------- |
+| CAS Registry | Chemical substances | 250M+ substances | Industry standard for molecule indexing |
+| Reaxys (Elsevier) | Reactions & properties | Millions of reactions | Rich curated literature reaction data |
+| Citrine Informatics DB | Experimental materials | Private | Materials ML platform w/ industry data |
+| CSD (Cambridge) | Organic crystals | 1.3M+ | Gold-standard X-ray structures |
+| [PoLyInfo](https://polymer.nims.go.jp/en/) | Polymers & properties | 500k+ data points / Experimental | Polymer properties from literature sources |
 
 ### Dataset Resources
 * [The Materials Data Facility](https://www.materialsdatafacility.org) - Over 100 TB of open materials data. #TODO list some of these in the tables above
