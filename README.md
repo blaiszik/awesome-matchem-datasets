@@ -66,7 +66,7 @@ OR
 | [QM9](http://quantum-machine.org/datasets/) | Small organic molecules | 134k molecules with quantum properties | Computational | SDF/CSV |
 | [QM7/QM7b](http://quantum-machine.org/datasets/) | Small molecules | 7k molecules with atomization energies | Experimental | SDF/CSV |
 | [QMugs](https://www.openqdc.io/datasets/qmugs) | Drug-like molecules | 665 k mol / 2 M conf | Computational | HDF5 |
-| [C2DB](https://c2db.fysik.dtu.dk) | 2-D materials | ~4 000 entries | Computational | JSON/API |
+| [C2DB](https://c2db.fysik.dtu.dk) | 2D materials | ~4 000 entries | Computational | JSON/API |
 | [ANI-1x / 1ccx](https://qcawebapps.molssi.org/ml_datasets/) | Small organic mol | 5 M (DFT) + 0.5 M (CCSD) | Computational | HDF5 |
 | [CoRE MOF 2019](https://pubs.acs.org/doi/10.1021/acs.jced.9b00835) | Metal-organic frameworks | 14 763 structures | Computational | CIF/JSON |
 | [QMOF Database](https://figshare.com/articles/dataset/QMOF_Database/13147324) | Metal-organic frameworks | 20k+ structures (DFT) | Computational | CIF/JSON |
@@ -100,7 +100,12 @@ OR
 | [MC-PDFT-OPESf](https://github.com/Ferg-Lab/PDFT_OPESf) | Reaction kinetics | Diels-Alder reaction | Computational |  |
 | [Quantum Cluster Database](https://muellergroup.jhu.edu/qcd/) | Nanoclusters | 63,015 clusters | Computational | CSV/JSON |
 | [The Cambridge Cluster Database](https://www-wales.ch.cam.ac.uk/CCD.html) | Mixed Clusters | Multiple Files | Computational | Multiple Types |
-| [Battery Electrolyte Solvation/Ionization](https://doi.org/10.5281/zenodo.15252439) | Organic molecules | Thousands of molecules | Computational |  |
+| [Battery Electrolyte Solvation/Ionization](https://doi.org/10.5281/zenodo.15252439) | Organic molecules | Thousands of molecules | Computational | |
+| [van der Waals Bilayer Database (BiDB)](https://bidb.fysik.dtu.dk/) | 2D vdW Bilayers | 12,138 entries | Computational | DB | 
+| [Van der Waals 2D Heterostructure Database (HetDB)](https://hetdb.fysik.dtu.dk/) | 2D vdW Heterostructures | 336 entries | Computational | DB |
+| [Quantum Point Defects Database (QPOD)](https://qpod.fysik.dtu.dk/) | Point Defects in 2D Materials | 24,399 entries | Computational | DB |
+| [2D Alloy Database](https://cmrdb.fysik.dtu.dk/2dalloys/)| 2D TMDC Alloys | 400 alloy monolayers | Coputational | DB |
+
 
 ---
 
