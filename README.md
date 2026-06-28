@@ -150,7 +150,7 @@ OR
 | [BigSolDB 2.0](https://doi.org/10.5281/zenodo.15094979) | Solubility | 103k+ values | Experimental | CSV/XLSX |
 | [OpenExp](https://osf.io/e68v4/files/3dv4k) | Chemical reactions | 274k pairs | Experimental | Varies |
 | [Battery Imaging Library (BIL)](https://www.batteryimaginglibrary.com) | Battery imaging | 80+ scans, >500B voxels | Experimental | Various |
-
+| [Experimental 2D Materials Database (X2DB)](https://x2db.fysik.dtu.dk/)| Experimentally realized 2D materials | 603 entries | Experimental | |
 
 ---
 
