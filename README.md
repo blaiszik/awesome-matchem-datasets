@@ -104,7 +104,7 @@ OR
 | [van der Waals Bilayer Database (BiDB)](https://bidb.fysik.dtu.dk/) | 2D vdW Bilayers | 12,138 entries | Computational | DB | 
 | [Van der Waals 2D Heterostructure Database (HetDB)](https://hetdb.fysik.dtu.dk/) | 2D vdW Heterostructures | 336 entries | Computational | DB |
 | [Quantum Point Defects Database (QPOD)](https://qpod.fysik.dtu.dk/) | Point Defects in 2D Materials | 24,399 entries | Computational | DB |
-| [2D Alloy Database](https://cmrdb.fysik.dtu.dk/2dalloys/)| 2D TMDC Alloys | 400 alloy monolayers | Coputational | DB |
+| [2D Alloy Database](https://cmrdb.fysik.dtu.dk/2dalloys/)| 2D TMDC Alloys | 400 alloy monolayers | Computational | DB |
 
 
 ---
