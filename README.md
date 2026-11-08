@@ -176,6 +176,7 @@ OR
 | [Pfizer HiTEA](https://github.com/emmaking-smith/HiTEA) | High-throughput experimentation (4 reaction classes) | 39,000+ reactions | Experimental | CSV |
 | [AstraZeneca ELN Buchwald–Hartwig](https://github.com/nsf-c-cas) | Real-world ELN reactions (C–N coupling) | 781 reactions | Experimental | UDM/CSV |
 | [Minerva HTE](https://github.com/schwallergroup/minerva) | Multi-objective reaction optimization | 1,632 reactions | Experimental | SURF/JSON |
+| [Space Mushroom Open Materials Database](https://zenodo.org/records/23718226) | Engineering materials (metals, polymers, ceramics, glasses) | 420 profiles (snapshot 2026-10-28) | Experimental, with source and test conditions per value | CSV (index) |
 
 ---
 
